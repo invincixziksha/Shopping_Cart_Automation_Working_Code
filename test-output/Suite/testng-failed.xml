@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="classes" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="coreUtilities.testlisteners.TestListener"/>
+    <listener class-name="coreUtilities.testlisteners.RetryListener"/>
+  </listeners>
+  <test thread-count="5" parallel="classes" name="Test(failed)">
+    <parameter name="environment" value="dev"/>
+    <parameter name="browser" value="chrome"/>
+    <groups>
+      <run>
+        <include name="sanity"/>
+      </run>
+    </groups>
+    <classes>
+<<<<<<< HEAD
+      <class name="testcases.Facebook_L1_AutomationTest">
+        <methods>
+          <include name="initBrowser"/>
+          <include name="tearDown"/>
+          <include name="Validate_incorrectUsername"/>
+        </methods>
+      </class> <!-- testcases.Facebook_L1_AutomationTest -->
+=======
+      <class name="testcases.Practice_Automation_L1_TestCases">
+        <methods>
+          <include name="Price_Defined_in_correct_Format"/>
+          <include name="Total_Defined"/>
+          <include name="updateQuantity"/>
+          <include name="CheckItem"/>
+          <include name="quantity_Defined_in_correct_Format"/>
+          <include name="seleniumu_Ruby_is_present"/>
+          <include name="Proceed_to_checkout"/>
+          <include name="Price_Defined"/>
+          <include name="navigates_to_Selenium_Ruby"/>
+          <include name="navigateToHomePage"/>
+          <include name="check_Shop_Menu"/>
+          <include name="navigateTobasketpage"/>
+          <include name="navigate_to_Billing_Details_page"/>
+          <include name="Quantity_Defined"/>
+          <include name="Tax_Defined_in_correct_Format"/>
+          <include name="Tax_Defined"/>
+          <include name="Total_Defined_in_Correct_Format"/>
+          <include name="Click_Proceed_to_checkout"/>
+          <include name="Update_Basket"/>
+          <include name="Home_menu"/>
+          <include name="navigate_to_Shop_page"/>
+          <include name="tearDown"/>
+          <include name="ValidateAnRemoveMessage"/>
+          <include name="initBrowser"/>
+          <include name="verify_message"/>
+        </methods>
+      </class> <!-- testcases.Practice_Automation_L1_TestCases -->
+>>>>>>> 121b450 (added the new usecases for demo automation testing site)
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

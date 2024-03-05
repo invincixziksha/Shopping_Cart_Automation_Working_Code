@@ -1,0 +1,59 @@
+{
+<<<<<<< HEAD
+	"LoginPage_Title":{
+		"loginpageTitle":"Facebook – log in or sign up"
+	},
+	"HomePage_Title":{
+		"pageTitle":"Facebook – log in or sign up"
+	},
+	
+		"userdetails":{
+			"firstName":"abhisek",
+			"lastName":"mohanta"
+	},
+	"Incorrect_password":{
+		"incorrect_password_meassge":"The password that you've entered is incorrect."
+	},
+	"Incorrect_Username":{
+		"incorrect_username_meassge":"The email address you entered isn't connected to an account."
+	},
+	"Login_button":{
+		"Login_button_meassge":"Log in"
+=======
+	
+	"HomePage_Title":{
+		"HomepageTitle":"Automation Practice Site"
+>>>>>>> 121b450 (added the new usecases for demo automation testing site)
+	},
+
+	"Shop_menu":{
+		"Shop_menu_title":"Products – Automation Practice Site"
+	},
+	"Shop_page":{
+		"Shop_page_title":"Products – Automation Practice Site"
+	},
+	"basket_page":{
+		"basket_page_title":"Basket – Automation Practice Site"
+	},
+	"new_arrival":{
+		"new_arrival_text":"new arrivals"
+	},
+	"Selenium_Ruby":{
+		"Selenium_Ruby_title":"Basket – Automation Practice Site"
+	},
+	"Message":{
+		"message_details":" “Selenium Ruby” has been added to your basket."
+	},
+<<<<<<< HEAD
+	"error_message":{
+		"verify_error_message":"Enter a combination of at least six numbers, letters and punctuation marks (such as ! and &)."
+	},
+	"username_field":{
+		"username_field_Title":"Email address or phone number"
+=======
+	"Remove_Message":{
+		"Remove_message_details":"Selenium Ruby removed. "
+>>>>>>> 121b450 (added the new usecases for demo automation testing site)
+	}
+}
+
