@@ -334,7 +334,7 @@ public class Shopping_Cart_Automation_Pages extends StartupPage
 	}
 	
 
-	/**@Test18
+	/**@Test18 same as @Test11
 	 * about this method goToTheHomeIconclickonseleniumrubyThenClickOnAddToBasketThenClickOnViewBasket() 
 	 * @param : null
 	 * @description : go To The Home Icon then click on Seleniumruby Then Click On Add To Basket Then Click On View Basket

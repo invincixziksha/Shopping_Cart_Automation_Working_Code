@@ -2,10 +2,9 @@
 <testng-results ignored="0" total="20" passed="20" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-03-11T12:35:37 IST" name="Suite" finished-at="2024-03-11T12:35:50 IST" duration-ms="12093">
+  <suite started-at="2024-03-11T14:26:42 IST" name="Suite" finished-at="2024-03-11T14:27:27 IST" duration-ms="45266">
     <groups>
       <group name="sanity">
-        <method signature="Shopping_Cart_Automation_L2_TestCases.goHomeIconclickonseleniumrubyThenClickOnAddToBasketThenClickOnViewBasket()[pri:0, instance:testcases.Shopping_Cart_Automation_L2_TestCases@e24ddd0]" name="goHomeIconclickonseleniumrubyThenClickOnAddToBasketThenClickOnViewBasket" class="testcases.Shopping_Cart_Automation_L2_TestCases"/>
         <method signature="Shopping_Cart_Automation_L1_TestCases.verifyNavigateTotTheShoppingCartpage()[pri:1, instance:testcases.Shopping_Cart_Automation_L1_TestCases@7a11c4c7]" name="verifyNavigateTotTheShoppingCartpage" class="testcases.Shopping_Cart_Automation_L1_TestCases"/>
         <method signature="Shopping_Cart_Automation_L1_TestCases.checkShopMenuIsPresent()[pri:2, instance:testcases.Shopping_Cart_Automation_L1_TestCases@7a11c4c7]" name="checkShopMenuIsPresent" class="testcases.Shopping_Cart_Automation_L1_TestCases"/>
         <method signature="Shopping_Cart_Automation_L1_TestCases.clickOnShopMenuAndValidateTheTitle()[pri:3, instance:testcases.Shopping_Cart_Automation_L1_TestCases@7a11c4c7]" name="clickOnShopMenuAndValidateTheTitle" class="testcases.Shopping_Cart_Automation_L1_TestCases"/>
@@ -16,20 +15,21 @@
         <method signature="Shopping_Cart_Automation_L1_TestCases.verifyAddBasketButtonIsPresentAndClickOnAddBasket()[pri:8, instance:testcases.Shopping_Cart_Automation_L1_TestCases@7a11c4c7]" name="verifyAddBasketButtonIsPresentAndClickOnAddBasket" class="testcases.Shopping_Cart_Automation_L1_TestCases"/>
         <method signature="Shopping_Cart_Automation_L1_TestCases.viewBasketButtonIsPresentAndClickOnIt()[pri:9, instance:testcases.Shopping_Cart_Automation_L1_TestCases@7a11c4c7]" name="viewBasketButtonIsPresentAndClickOnIt" class="testcases.Shopping_Cart_Automation_L1_TestCases"/>
         <method signature="Shopping_Cart_Automation_L1_TestCases.userIsNavigateToTheBasketPage()[pri:10, instance:testcases.Shopping_Cart_Automation_L1_TestCases@7a11c4c7]" name="userIsNavigateToTheBasketPage" class="testcases.Shopping_Cart_Automation_L1_TestCases"/>
-        <method signature="Shopping_Cart_Automation_L2_TestCases.seleniumRubyProductIsPresent()[pri:11, instance:testcases.Shopping_Cart_Automation_L2_TestCases@e24ddd0]" name="seleniumRubyProductIsPresent" class="testcases.Shopping_Cart_Automation_L2_TestCases"/>
-        <method signature="Shopping_Cart_Automation_L2_TestCases.verifyCouponCodeFieldAndApplyCouponButtonIsPresent()[pri:12, instance:testcases.Shopping_Cart_Automation_L2_TestCases@e24ddd0]" name="verifyCouponCodeFieldAndApplyCouponButtonIsPresent" class="testcases.Shopping_Cart_Automation_L2_TestCases"/>
-        <method signature="Shopping_Cart_Automation_L2_TestCases.priceDefinedAfterProductName()[pri:13, instance:testcases.Shopping_Cart_Automation_L2_TestCases@e24ddd0]" name="priceDefinedAfterProductName" class="testcases.Shopping_Cart_Automation_L2_TestCases"/>
-        <method signature="Shopping_Cart_Automation_L2_TestCases.quantityDefinedAfterProductPrice()[pri:14, instance:testcases.Shopping_Cart_Automation_L2_TestCases@e24ddd0]" name="quantityDefinedAfterProductPrice" class="testcases.Shopping_Cart_Automation_L2_TestCases"/>
-        <method signature="Shopping_Cart_Automation_L2_TestCases.totalDefinedIsPresentAfterQuantity()[pri:15, instance:testcases.Shopping_Cart_Automation_L2_TestCases@e24ddd0]" name="totalDefinedIsPresentAfterQuantity" class="testcases.Shopping_Cart_Automation_L2_TestCases"/>
-        <method signature="Shopping_Cart_Automation_L2_TestCases.removeIconIsPresentAndRemoveTheProduct()[pri:16, instance:testcases.Shopping_Cart_Automation_L2_TestCases@e24ddd0]" name="removeIconIsPresentAndRemoveTheProduct" class="testcases.Shopping_Cart_Automation_L2_TestCases"/>
-        <method signature="Shopping_Cart_Automation_L2_TestCases.validateTheMessageAfterRemovingAProduct()[pri:17, instance:testcases.Shopping_Cart_Automation_L2_TestCases@e24ddd0]" name="validateTheMessageAfterRemovingAProduct" class="testcases.Shopping_Cart_Automation_L2_TestCases"/>
-        <method signature="Shopping_Cart_Automation_L2_TestCases.gotoTheHomeIconclickonseleniumrubyThenClickOnAddToBasketThenClickOnViewBasket()[pri:18, instance:testcases.Shopping_Cart_Automation_L2_TestCases@e24ddd0]" name="gotoTheHomeIconclickonseleniumrubyThenClickOnAddToBasketThenClickOnViewBasket" class="testcases.Shopping_Cart_Automation_L2_TestCases"/>
-        <method signature="Shopping_Cart_Automation_L2_TestCases.validateIfWeHaveAProceedToCheckoutButtonOrNot()[pri:19, instance:testcases.Shopping_Cart_Automation_L2_TestCases@e24ddd0]" name="validateIfWeHaveAProceedToCheckoutButtonOrNot" class="testcases.Shopping_Cart_Automation_L2_TestCases"/>
+        <method signature="Shopping_Cart_Automation_L2_TestCases.goHomeIconclickonseleniumrubyThenClickOnAddToBasketThenClickOnViewBasket()[pri:11, instance:testcases.Shopping_Cart_Automation_L2_TestCases@e24ddd0]" name="goHomeIconclickonseleniumrubyThenClickOnAddToBasketThenClickOnViewBasket" class="testcases.Shopping_Cart_Automation_L2_TestCases"/>
+        <method signature="Shopping_Cart_Automation_L2_TestCases.seleniumRubyProductIsPresent()[pri:12, instance:testcases.Shopping_Cart_Automation_L2_TestCases@e24ddd0]" name="seleniumRubyProductIsPresent" class="testcases.Shopping_Cart_Automation_L2_TestCases"/>
+        <method signature="Shopping_Cart_Automation_L2_TestCases.verifyCouponCodeFieldAndApplyCouponButtonIsPresent()[pri:13, instance:testcases.Shopping_Cart_Automation_L2_TestCases@e24ddd0]" name="verifyCouponCodeFieldAndApplyCouponButtonIsPresent" class="testcases.Shopping_Cart_Automation_L2_TestCases"/>
+        <method signature="Shopping_Cart_Automation_L2_TestCases.priceDefinedAfterProductName()[pri:14, instance:testcases.Shopping_Cart_Automation_L2_TestCases@e24ddd0]" name="priceDefinedAfterProductName" class="testcases.Shopping_Cart_Automation_L2_TestCases"/>
+        <method signature="Shopping_Cart_Automation_L2_TestCases.quantityDefinedAfterProductPrice()[pri:15, instance:testcases.Shopping_Cart_Automation_L2_TestCases@e24ddd0]" name="quantityDefinedAfterProductPrice" class="testcases.Shopping_Cart_Automation_L2_TestCases"/>
+        <method signature="Shopping_Cart_Automation_L2_TestCases.totalDefinedIsPresentAfterQuantity()[pri:16, instance:testcases.Shopping_Cart_Automation_L2_TestCases@e24ddd0]" name="totalDefinedIsPresentAfterQuantity" class="testcases.Shopping_Cart_Automation_L2_TestCases"/>
+        <method signature="Shopping_Cart_Automation_L2_TestCases.removeIconIsPresentAndRemoveTheProduct()[pri:17, instance:testcases.Shopping_Cart_Automation_L2_TestCases@e24ddd0]" name="removeIconIsPresentAndRemoveTheProduct" class="testcases.Shopping_Cart_Automation_L2_TestCases"/>
+        <method signature="Shopping_Cart_Automation_L2_TestCases.validateTheMessageAfterRemovingAProduct()[pri:18, instance:testcases.Shopping_Cart_Automation_L2_TestCases@e24ddd0]" name="validateTheMessageAfterRemovingAProduct" class="testcases.Shopping_Cart_Automation_L2_TestCases"/>
+        <method signature="Shopping_Cart_Automation_L2_TestCases.gotoTheHomeIconclickonseleniumrubyThenClickOnAddToBasketThenClickOnViewBasket()[pri:19, instance:testcases.Shopping_Cart_Automation_L2_TestCases@e24ddd0]" name="gotoTheHomeIconclickonseleniumrubyThenClickOnAddToBasketThenClickOnViewBasket" class="testcases.Shopping_Cart_Automation_L2_TestCases"/>
+        <method signature="Shopping_Cart_Automation_L2_TestCases.validateIfWeHaveAProceedToCheckoutButtonOrNot()[pri:20, instance:testcases.Shopping_Cart_Automation_L2_TestCases@e24ddd0]" name="validateIfWeHaveAProceedToCheckoutButtonOrNot" class="testcases.Shopping_Cart_Automation_L2_TestCases"/>
       </group> <!-- sanity -->
     </groups>
-    <test started-at="2024-03-11T12:35:37 IST" name="Test" finished-at="2024-03-11T12:35:50 IST" duration-ms="12093">
+    <test started-at="2024-03-11T14:26:42 IST" name="Test" finished-at="2024-03-11T14:27:27 IST" duration-ms="45266">
       <class name="testcases.Shopping_Cart_Automation_L1_TestCases">
-        <test-method is-config="true" signature="initBrowser(java.lang.String,java.lang.String)[pri:0, instance:testcases.Shopping_Cart_Automation_L1_TestCases@7a11c4c7]" started-at="2024-03-11T12:35:37 IST" name="initBrowser" finished-at="2024-03-11T12:35:44 IST" duration-ms="6148" status="PASS">
+        <test-method is-config="true" signature="initBrowser(java.lang.String,java.lang.String)[pri:0, instance:testcases.Shopping_Cart_Automation_L1_TestCases@7a11c4c7]" started-at="2024-03-11T14:26:42 IST" name="initBrowser" finished-at="2024-03-11T14:26:52 IST" duration-ms="9453" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -45,53 +45,53 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initBrowser -->
-        <test-method signature="verifyNavigateTotTheShoppingCartpage()[pri:1, instance:testcases.Shopping_Cart_Automation_L1_TestCases@7a11c4c7]" started-at="2024-03-11T12:35:44 IST" name="verifyNavigateTotTheShoppingCartpage" description="Verify navigate to the shopping cart home page" finished-at="2024-03-11T12:35:44 IST" duration-ms="97" status="PASS">
+        <test-method signature="verifyNavigateTotTheShoppingCartpage()[pri:1, instance:testcases.Shopping_Cart_Automation_L1_TestCases@7a11c4c7]" started-at="2024-03-11T14:26:52 IST" name="verifyNavigateTotTheShoppingCartpage" description="Verify navigate to the shopping cart home page" finished-at="2024-03-11T14:26:52 IST" duration-ms="172" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyNavigateTotTheShoppingCartpage -->
-        <test-method signature="checkShopMenuIsPresent()[pri:2, instance:testcases.Shopping_Cart_Automation_L1_TestCases@7a11c4c7]" started-at="2024-03-11T12:35:44 IST" name="checkShopMenuIsPresent" description="Check Shop Menu Option is present or not" finished-at="2024-03-11T12:35:44 IST" duration-ms="145" status="PASS">
+        <test-method signature="checkShopMenuIsPresent()[pri:2, instance:testcases.Shopping_Cart_Automation_L1_TestCases@7a11c4c7]" started-at="2024-03-11T14:26:52 IST" name="checkShopMenuIsPresent" description="Check Shop Menu Option is present or not" finished-at="2024-03-11T14:26:52 IST" duration-ms="185" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkShopMenuIsPresent -->
-        <test-method signature="clickOnShopMenuAndValidateTheTitle()[pri:3, instance:testcases.Shopping_Cart_Automation_L1_TestCases@7a11c4c7]" started-at="2024-03-11T12:35:44 IST" name="clickOnShopMenuAndValidateTheTitle" description="Click on “Shop” Menu Option and validate successfully navigate to the shop page or not" finished-at="2024-03-11T12:35:45 IST" duration-ms="635" status="PASS">
+        <test-method signature="clickOnShopMenuAndValidateTheTitle()[pri:3, instance:testcases.Shopping_Cart_Automation_L1_TestCases@7a11c4c7]" started-at="2024-03-11T14:26:52 IST" name="clickOnShopMenuAndValidateTheTitle" description="Click on “Shop” Menu Option and validate successfully navigate to the shop page or not" finished-at="2024-03-11T14:26:53 IST" duration-ms="1279" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickOnShopMenuAndValidateTheTitle -->
-        <test-method signature="clickOnLogoAndVerifyItIsNavigateToTheHomePage()[pri:4, instance:testcases.Shopping_Cart_Automation_L1_TestCases@7a11c4c7]" started-at="2024-03-11T12:35:45 IST" name="clickOnLogoAndVerifyItIsNavigateToTheHomePage" description="Click on the Automation practice site logo Verify navigate to the home page by clicking on the Logo" finished-at="2024-03-11T12:35:45 IST" duration-ms="804" status="PASS">
+        <test-method signature="clickOnLogoAndVerifyItIsNavigateToTheHomePage()[pri:4, instance:testcases.Shopping_Cart_Automation_L1_TestCases@7a11c4c7]" started-at="2024-03-11T14:26:53 IST" name="clickOnLogoAndVerifyItIsNavigateToTheHomePage" description="Click on the Automation practice site logo Verify navigate to the home page by clicking on the Logo" finished-at="2024-03-11T14:26:55 IST" duration-ms="1558" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickOnLogoAndVerifyItIsNavigateToTheHomePage -->
-        <test-method signature="checkIfHomePageHasASectionOfNewArrivals()[pri:5, instance:testcases.Shopping_Cart_Automation_L1_TestCases@7a11c4c7]" started-at="2024-03-11T12:35:45 IST" name="checkIfHomePageHasASectionOfNewArrivals" description="Check if Home page has a section of new arrivals" finished-at="2024-03-11T12:35:45 IST" duration-ms="93" status="PASS">
+        <test-method signature="checkIfHomePageHasASectionOfNewArrivals()[pri:5, instance:testcases.Shopping_Cart_Automation_L1_TestCases@7a11c4c7]" started-at="2024-03-11T14:26:55 IST" name="checkIfHomePageHasASectionOfNewArrivals" description="Check if Home page has a section of new arrivals" finished-at="2024-03-11T14:26:55 IST" duration-ms="196" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkIfHomePageHasASectionOfNewArrivals -->
-        <test-method signature="checkArrivalsSectionHasExactly3ProductsEnlisted()[pri:6, instance:testcases.Shopping_Cart_Automation_L1_TestCases@7a11c4c7]" started-at="2024-03-11T12:35:45 IST" name="checkArrivalsSectionHasExactly3ProductsEnlisted" description="Check of “Arrivals” section has exactly 3 products enlisted" finished-at="2024-03-11T12:35:46 IST" duration-ms="257" status="PASS">
+        <test-method signature="checkArrivalsSectionHasExactly3ProductsEnlisted()[pri:6, instance:testcases.Shopping_Cart_Automation_L1_TestCases@7a11c4c7]" started-at="2024-03-11T14:26:55 IST" name="checkArrivalsSectionHasExactly3ProductsEnlisted" description="Check of “Arrivals” section has exactly 3 products enlisted" finished-at="2024-03-11T14:26:55 IST" duration-ms="293" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkArrivalsSectionHasExactly3ProductsEnlisted -->
-        <test-method signature="clickOnSeleniumRubyProductAndValidateTheTitleOfThisPage()[pri:7, instance:testcases.Shopping_Cart_Automation_L1_TestCases@7a11c4c7]" started-at="2024-03-11T12:35:46 IST" name="clickOnSeleniumRubyProductAndValidateTheTitleOfThisPage" description="Click on Selenium Ruby Product and validate the title of the page" finished-at="2024-03-11T12:35:46 IST" duration-ms="659" status="PASS">
+        <test-method signature="clickOnSeleniumRubyProductAndValidateTheTitleOfThisPage()[pri:7, instance:testcases.Shopping_Cart_Automation_L1_TestCases@7a11c4c7]" started-at="2024-03-11T14:26:55 IST" name="clickOnSeleniumRubyProductAndValidateTheTitleOfThisPage" description="Click on Selenium Ruby Product and validate the title of the page" finished-at="2024-03-11T14:26:57 IST" duration-ms="1281" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickOnSeleniumRubyProductAndValidateTheTitleOfThisPage -->
-        <test-method signature="verifyAddBasketButtonIsPresentAndClickOnAddBasket()[pri:8, instance:testcases.Shopping_Cart_Automation_L1_TestCases@7a11c4c7]" started-at="2024-03-11T12:35:46 IST" name="verifyAddBasketButtonIsPresentAndClickOnAddBasket" description="Check product details page has an option ADD TO BASKET and Click on ADD TO BASKET" finished-at="2024-03-11T12:35:47 IST" duration-ms="591" status="PASS">
+        <test-method signature="verifyAddBasketButtonIsPresentAndClickOnAddBasket()[pri:8, instance:testcases.Shopping_Cart_Automation_L1_TestCases@7a11c4c7]" started-at="2024-03-11T14:26:57 IST" name="verifyAddBasketButtonIsPresentAndClickOnAddBasket" description="Check product details page has an option ADD TO BASKET and Click on ADD TO BASKET" finished-at="2024-03-11T14:26:58 IST" duration-ms="1250" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyAddBasketButtonIsPresentAndClickOnAddBasket -->
-        <test-method signature="viewBasketButtonIsPresentAndClickOnIt()[pri:9, instance:testcases.Shopping_Cart_Automation_L1_TestCases@7a11c4c7]" started-at="2024-03-11T12:35:47 IST" name="viewBasketButtonIsPresentAndClickOnIt" description="Verify that view basket button is present after click on add to basket and click on View basket" finished-at="2024-03-11T12:35:48 IST" duration-ms="580" status="PASS">
+        <test-method signature="viewBasketButtonIsPresentAndClickOnIt()[pri:9, instance:testcases.Shopping_Cart_Automation_L1_TestCases@7a11c4c7]" started-at="2024-03-11T14:26:58 IST" name="viewBasketButtonIsPresentAndClickOnIt" description="Verify that view basket button is present after click on add to basket and click on View basket" finished-at="2024-03-11T14:26:59 IST" duration-ms="1231" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- viewBasketButtonIsPresentAndClickOnIt -->
-        <test-method signature="userIsNavigateToTheBasketPage()[pri:10, instance:testcases.Shopping_Cart_Automation_L1_TestCases@7a11c4c7]" started-at="2024-03-11T12:35:48 IST" name="userIsNavigateToTheBasketPage" description="Verify that user is navigate to the  Cart or Basket page" finished-at="2024-03-11T12:35:48 IST" duration-ms="29" status="PASS">
+        <test-method signature="userIsNavigateToTheBasketPage()[pri:10, instance:testcases.Shopping_Cart_Automation_L1_TestCases@7a11c4c7]" started-at="2024-03-11T14:26:59 IST" name="userIsNavigateToTheBasketPage" description="Verify that user is navigate to the  Cart or Basket page" finished-at="2024-03-11T14:26:59 IST" duration-ms="96" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- userIsNavigateToTheBasketPage -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.Shopping_Cart_Automation_L1_TestCases@7a11c4c7]" started-at="2024-03-11T12:35:48 IST" name="tearDown" finished-at="2024-03-11T12:35:48 IST" duration-ms="249" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.Shopping_Cart_Automation_L1_TestCases@7a11c4c7]" started-at="2024-03-11T14:26:59 IST" name="tearDown" finished-at="2024-03-11T14:26:59 IST" duration-ms="317" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testcases.Shopping_Cart_Automation_L1_TestCases -->
       <class name="testcases.Shopping_Cart_Automation_L2_TestCases">
-        <test-method is-config="true" signature="initBrowser(java.lang.String,java.lang.String)[pri:0, instance:testcases.Shopping_Cart_Automation_L2_TestCases@e24ddd0]" started-at="2024-03-11T12:35:37 IST" name="initBrowser" finished-at="2024-03-11T12:35:44 IST" duration-ms="6407" status="PASS">
+        <test-method is-config="true" signature="initBrowser(java.lang.String,java.lang.String)[pri:0, instance:testcases.Shopping_Cart_Automation_L2_TestCases@e24ddd0]" started-at="2024-03-11T14:26:42 IST" name="initBrowser" finished-at="2024-03-11T14:27:13 IST" duration-ms="31200" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -107,47 +107,47 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initBrowser -->
-        <test-method signature="goHomeIconclickonseleniumrubyThenClickOnAddToBasketThenClickOnViewBasket()[pri:0, instance:testcases.Shopping_Cart_Automation_L2_TestCases@e24ddd0]" started-at="2024-03-11T12:35:44 IST" name="goHomeIconclickonseleniumrubyThenClickOnAddToBasketThenClickOnViewBasket" description="This test is for make a flow" finished-at="2024-03-11T12:35:46 IST" duration-ms="2397" status="PASS">
+        <test-method signature="goHomeIconclickonseleniumrubyThenClickOnAddToBasketThenClickOnViewBasket()[pri:11, instance:testcases.Shopping_Cart_Automation_L2_TestCases@e24ddd0]" started-at="2024-03-11T14:27:13 IST" name="goHomeIconclickonseleniumrubyThenClickOnAddToBasketThenClickOnViewBasket" description="This test is for make a flow" finished-at="2024-03-11T14:27:20 IST" duration-ms="6394" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- goHomeIconclickonseleniumrubyThenClickOnAddToBasketThenClickOnViewBasket -->
-        <test-method signature="seleniumRubyProductIsPresent()[pri:11, instance:testcases.Shopping_Cart_Automation_L2_TestCases@e24ddd0]" started-at="2024-03-11T12:35:46 IST" name="seleniumRubyProductIsPresent" description="Verify after clicking on View basket the Selenium Ruby  product is present or not." finished-at="2024-03-11T12:35:46 IST" duration-ms="107" status="PASS">
+        <test-method signature="seleniumRubyProductIsPresent()[pri:12, instance:testcases.Shopping_Cart_Automation_L2_TestCases@e24ddd0]" started-at="2024-03-11T14:27:20 IST" name="seleniumRubyProductIsPresent" description="Verify after clicking on View basket the Selenium Ruby  product is present or not." finished-at="2024-03-11T14:27:20 IST" duration-ms="150" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- seleniumRubyProductIsPresent -->
-        <test-method signature="verifyCouponCodeFieldAndApplyCouponButtonIsPresent()[pri:12, instance:testcases.Shopping_Cart_Automation_L2_TestCases@e24ddd0]" started-at="2024-03-11T12:35:46 IST" name="verifyCouponCodeFieldAndApplyCouponButtonIsPresent" description="Verify Coupon code field and Apply Coupon button is present" finished-at="2024-03-11T12:35:47 IST" duration-ms="142" status="PASS">
+        <test-method signature="verifyCouponCodeFieldAndApplyCouponButtonIsPresent()[pri:13, instance:testcases.Shopping_Cart_Automation_L2_TestCases@e24ddd0]" started-at="2024-03-11T14:27:20 IST" name="verifyCouponCodeFieldAndApplyCouponButtonIsPresent" description="Verify Coupon code field and Apply Coupon button is present" finished-at="2024-03-11T14:27:20 IST" duration-ms="208" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyCouponCodeFieldAndApplyCouponButtonIsPresent -->
-        <test-method signature="priceDefinedAfterProductName()[pri:13, instance:testcases.Shopping_Cart_Automation_L2_TestCases@e24ddd0]" started-at="2024-03-11T12:35:47 IST" name="priceDefinedAfterProductName" description="Check if we have price defined after product name" finished-at="2024-03-11T12:35:47 IST" duration-ms="71" status="PASS">
+        <test-method signature="priceDefinedAfterProductName()[pri:14, instance:testcases.Shopping_Cart_Automation_L2_TestCases@e24ddd0]" started-at="2024-03-11T14:27:20 IST" name="priceDefinedAfterProductName" description="Check if we have price defined after product name" finished-at="2024-03-11T14:27:20 IST" duration-ms="128" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- priceDefinedAfterProductName -->
-        <test-method signature="quantityDefinedAfterProductPrice()[pri:14, instance:testcases.Shopping_Cart_Automation_L2_TestCases@e24ddd0]" started-at="2024-03-11T12:35:47 IST" name="quantityDefinedAfterProductPrice" description="Check if we have quantity defined after product price." finished-at="2024-03-11T12:35:47 IST" duration-ms="65" status="PASS">
+        <test-method signature="quantityDefinedAfterProductPrice()[pri:15, instance:testcases.Shopping_Cart_Automation_L2_TestCases@e24ddd0]" started-at="2024-03-11T14:27:20 IST" name="quantityDefinedAfterProductPrice" description="Check if we have quantity defined after product price." finished-at="2024-03-11T14:27:20 IST" duration-ms="114" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quantityDefinedAfterProductPrice -->
-        <test-method signature="totalDefinedIsPresentAfterQuantity()[pri:15, instance:testcases.Shopping_Cart_Automation_L2_TestCases@e24ddd0]" started-at="2024-03-11T12:35:47 IST" name="totalDefinedIsPresentAfterQuantity" description="Check if we have total defined is present after quantity." finished-at="2024-03-11T12:35:47 IST" duration-ms="77" status="PASS">
+        <test-method signature="totalDefinedIsPresentAfterQuantity()[pri:16, instance:testcases.Shopping_Cart_Automation_L2_TestCases@e24ddd0]" started-at="2024-03-11T14:27:20 IST" name="totalDefinedIsPresentAfterQuantity" description="Check if we have total defined is present after quantity." finished-at="2024-03-11T14:27:20 IST" duration-ms="129" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- totalDefinedIsPresentAfterQuantity -->
-        <test-method signature="removeIconIsPresentAndRemoveTheProduct()[pri:16, instance:testcases.Shopping_Cart_Automation_L2_TestCases@e24ddd0]" started-at="2024-03-11T12:35:47 IST" name="removeIconIsPresentAndRemoveTheProduct" description="Validate if we have an option to remove an added product or not and remove the product." finished-at="2024-03-11T12:35:47 IST" duration-ms="222" status="PASS">
+        <test-method signature="removeIconIsPresentAndRemoveTheProduct()[pri:17, instance:testcases.Shopping_Cart_Automation_L2_TestCases@e24ddd0]" started-at="2024-03-11T14:27:20 IST" name="removeIconIsPresentAndRemoveTheProduct" description="Validate if we have an option to remove an added product or not and remove the product." finished-at="2024-03-11T14:27:21 IST" duration-ms="244" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- removeIconIsPresentAndRemoveTheProduct -->
-        <test-method signature="validateTheMessageAfterRemovingAProduct()[pri:17, instance:testcases.Shopping_Cart_Automation_L2_TestCases@e24ddd0]" started-at="2024-03-11T12:35:47 IST" name="validateTheMessageAfterRemovingAProduct" description="Validate if we get a message after removing an item with its name or not." finished-at="2024-03-11T12:35:47 IST" duration-ms="389" status="PASS">
+        <test-method signature="validateTheMessageAfterRemovingAProduct()[pri:18, instance:testcases.Shopping_Cart_Automation_L2_TestCases@e24ddd0]" started-at="2024-03-11T14:27:21 IST" name="validateTheMessageAfterRemovingAProduct" description="Validate if we get a message after removing an item with its name or not." finished-at="2024-03-11T14:27:21 IST" duration-ms="499" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateTheMessageAfterRemovingAProduct -->
-        <test-method signature="gotoTheHomeIconclickonseleniumrubyThenClickOnAddToBasketThenClickOnViewBasket()[pri:18, instance:testcases.Shopping_Cart_Automation_L2_TestCases@e24ddd0]" started-at="2024-03-11T12:35:47 IST" name="gotoTheHomeIconclickonseleniumrubyThenClickOnAddToBasketThenClickOnViewBasket" description="Go to the Home Icon and click on selenium ruby then click on add to basket then click on view basket to add the product" finished-at="2024-03-11T12:35:49 IST" duration-ms="1874" status="PASS">
+        <test-method signature="gotoTheHomeIconclickonseleniumrubyThenClickOnAddToBasketThenClickOnViewBasket()[pri:19, instance:testcases.Shopping_Cart_Automation_L2_TestCases@e24ddd0]" started-at="2024-03-11T14:27:21 IST" name="gotoTheHomeIconclickonseleniumrubyThenClickOnAddToBasketThenClickOnViewBasket" description="Go to the Home Icon and click on selenium ruby then click on add to basket then click on view basket to add the product" finished-at="2024-03-11T14:27:27 IST" duration-ms="5630" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- gotoTheHomeIconclickonseleniumrubyThenClickOnAddToBasketThenClickOnViewBasket -->
-        <test-method signature="validateIfWeHaveAProceedToCheckoutButtonOrNot()[pri:19, instance:testcases.Shopping_Cart_Automation_L2_TestCases@e24ddd0]" started-at="2024-03-11T12:35:49 IST" name="validateIfWeHaveAProceedToCheckoutButtonOrNot" description="Validate if we have a “Proceed to checkout” button or not." finished-at="2024-03-11T12:35:49 IST" duration-ms="92" status="PASS">
+        <test-method signature="validateIfWeHaveAProceedToCheckoutButtonOrNot()[pri:20, instance:testcases.Shopping_Cart_Automation_L2_TestCases@e24ddd0]" started-at="2024-03-11T14:27:27 IST" name="validateIfWeHaveAProceedToCheckoutButtonOrNot" description="Validate if we have a “Proceed to checkout” button or not." finished-at="2024-03-11T14:27:27 IST" duration-ms="174" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateIfWeHaveAProceedToCheckoutButtonOrNot -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.Shopping_Cart_Automation_L2_TestCases@e24ddd0]" started-at="2024-03-11T12:35:49 IST" name="tearDown" finished-at="2024-03-11T12:35:50 IST" duration-ms="179" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.Shopping_Cart_Automation_L2_TestCases@e24ddd0]" started-at="2024-03-11T14:27:27 IST" name="tearDown" finished-at="2024-03-11T14:27:27 IST" duration-ms="318" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
