@@ -19,7 +19,7 @@ public class Shopping_Cart_Automation_Pages extends StartupPage
 	By seleniumRubyInsideTheBasketPage = By.xpath("//a[.='Selenium Ruby']/../..//td[@class=\"product-name\"]"); 
 	By couponcodeField = By.xpath("//input[@id=\"coupon_code\"]"); 
 	By applyCouponcodeButton = By.xpath("//input[@name=\"apply_coupon\"]"); 
-	By priceReadOnyField = By.xpath("(//span[@class=\"woocommerce-Price-amount amount\"])[1]"); 
+	By priceReadOnlyField = By.xpath("(//span[@class=\"woocommerce-Price-amount amount\"])[1]"); 
 	By quantityField= By.xpath("//div[@class=\"quantity\"]"); 
 	By totalField= By.xpath("//td[@class=\"product-subtotal\"]"); 
 	By removeIcon= By.xpath("//a[@title=\"Remove this item\"]"); 
@@ -177,7 +177,7 @@ public class Shopping_Cart_Automation_Pages extends StartupPage
 	/**@Test9
 	 * about this method viewBasketButtonIsPresentAndClickOnIt() 
 	 * @param : null
-	 * @description : verify view basket button is present then click on the view to basket button
+	 * @description : verify view basket button is present then click on the view basket button
 	 * @return : boolean
 	 * @author : Yaksha
 	 */
@@ -247,13 +247,13 @@ public class Shopping_Cart_Automation_Pages extends StartupPage
 	/**@Test13
 	 * about this method pricedefinedAfterProductName() 
 	 * @param : null
-	 * @description : verify priceReadOnyField is present or not
+	 * @description : verify price ReadOnlyField is present or not
 	 * @return : boolean
 	 * @author : Yaksha
 	 */
 	public boolean pricedefinedAfterProductName() throws Exception {
 		try {
-			commonEvents.isDisplayed(priceReadOnyField);
+			commonEvents.isDisplayed(priceReadOnlyField);
 	
 		}catch(Exception e) {
 			throw e;
@@ -264,7 +264,7 @@ public class Shopping_Cart_Automation_Pages extends StartupPage
 	/**@Test14
 	 * about this method quantityDefinedAfterProductPrice() 
 	 * @param : null
-	 * @description : verify quantityField is present or not
+	 * @description : verify quantity Field is present or not
 	 * @return : boolean
 	 * @author : Yaksha
 	 */
@@ -318,7 +318,7 @@ public class Shopping_Cart_Automation_Pages extends StartupPage
 	 * about this method validatetheMessageAfterRemovingAProduct() 
 	 * @param : null
 	 * @description : check remove message is present and validate the Message After Removing A Product
-	 * @return : boolean
+	 * @return : String
 	 * @author : Yaksha
 	 */
 	public String validatetheMessageAfterRemovingAProduct() throws Exception {

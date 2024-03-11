@@ -37,8 +37,13 @@ public class Shopping_Cart_Automation_L2_TestCases extends AppTestBase
 		initialize(configData);
 		startupPage = new StartupPage(driver);
 	}
-		//todo
-	// add some test here to make a flow here....
+
+	@Test( groups = {"sanity"}, description="This test is for make a flow")
+	public void  goHomeIconclickonseleniumrubyThenClickOnAddToBasketThenClickOnViewBasket() throws Exception {
+		practiceAutomationInstance= new Shopping_Cart_Automation_Pages(driver);
+		Assert.assertTrue(practiceAutomationInstance.goToTheHomeIconclickonseleniumrubyThenClickOnAddToBasketThenClickOnViewBasket(),"home icon is not present, check manually");
+		Assert.assertTrue(LocatorsFactoryInstance.getShopIconOption(driver).isDisplayed(), "Shop icon is not present in the current page, Please check manually");
+}
 	
 		@Test(priority = 11, groups = {"sanity"}, description="Verify after clicking on View basket the Selenium Ruby  product is present or not.")
 		public void  seleniumRubyProductIsPresent() throws Exception {

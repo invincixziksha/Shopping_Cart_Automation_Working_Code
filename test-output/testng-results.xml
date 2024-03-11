@@ -1,82 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<<<<<<< HEAD
-<testng-results ignored="0" total="19" passed="19" failed="0" skipped="0">
+<testng-results ignored="0" total="20" passed="20" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-03-04T12:18:16 IST" name="Suite" finished-at="2024-03-04T12:18:24 IST" duration-ms="7981">
+  <suite started-at="2024-03-11T12:35:37 IST" name="Suite" finished-at="2024-03-11T12:35:50 IST" duration-ms="12093">
     <groups>
       <group name="sanity">
-        <method signature="FaceBook_L2_AutomationTest.validateFacebookHomePage()[pri:1, instance:testcases.FaceBook_L2_AutomationTest@60b4beb4]" name="validateFacebookHomePage" class="testcases.FaceBook_L2_AutomationTest"/>
-        <method signature="FaceBook_L2_AutomationTest.validateProfileName()[pri:2, instance:testcases.FaceBook_L2_AutomationTest@60b4beb4]" name="validateProfileName" class="testcases.FaceBook_L2_AutomationTest"/>
-        <method signature="FaceBook_L2_AutomationTest.uploadProfilePicture()[pri:3, instance:testcases.FaceBook_L2_AutomationTest@60b4beb4]" name="uploadProfilePicture" class="testcases.FaceBook_L2_AutomationTest"/>
-        <method signature="FaceBook_L2_AutomationTest.uploadCoverPhoto()[pri:4, instance:testcases.FaceBook_L2_AutomationTest@60b4beb4]" name="uploadCoverPhoto" class="testcases.FaceBook_L2_AutomationTest"/>
-        <method signature="FaceBook_L2_AutomationTest.clickOnEditProfileAddDetailsInBioSections()[pri:5, instance:testcases.FaceBook_L2_AutomationTest@60b4beb4]" name="clickOnEditProfileAddDetailsInBioSections" class="testcases.FaceBook_L2_AutomationTest"/>
-        <method signature="FaceBook_L2_AutomationTest.clicOnPostGoToIntoAddDetailsInAddBio()[pri:6, instance:testcases.FaceBook_L2_AutomationTest@60b4beb4]" name="clicOnPostGoToIntoAddDetailsInAddBio" class="testcases.FaceBook_L2_AutomationTest"/>
-        <method signature="FaceBook_L2_AutomationTest.clicOnPostGoToIntoClickOnEditDetailsAddWorkPlace()[pri:7, instance:testcases.FaceBook_L2_AutomationTest@60b4beb4]" name="clicOnPostGoToIntoClickOnEditDetailsAddWorkPlace" class="testcases.FaceBook_L2_AutomationTest"/>
-        <method signature="FaceBook_L2_AutomationTest.clicOnPostGoToIntoClickOnEditFeaturedAddOneFeaturedPhotos()[pri:7, instance:testcases.FaceBook_L2_AutomationTest@60b4beb4]" name="clicOnPostGoToIntoClickOnEditFeaturedAddOneFeaturedPhotos" class="testcases.FaceBook_L2_AutomationTest"/>
-        <method signature="FaceBook_L2_AutomationTest.gotoAboutClickOnOverviewAddWorkplace()[pri:8, instance:testcases.FaceBook_L2_AutomationTest@60b4beb4]" name="gotoAboutClickOnOverviewAddWorkplace" class="testcases.FaceBook_L2_AutomationTest"/>
-        <method signature="FaceBook_L2_AutomationTest.gotoAboutClickOnOverviewAddSecondaryHighSchool()[pri:9, instance:testcases.FaceBook_L2_AutomationTest@60b4beb4]" name="gotoAboutClickOnOverviewAddSecondaryHighSchool" class="testcases.FaceBook_L2_AutomationTest"/>
-        <method signature="FaceBook_L2_AutomationTest.gotoAboutClickOnOverviewAddUniversity()[pri:10, instance:testcases.FaceBook_L2_AutomationTest@60b4beb4]" name="gotoAboutClickOnOverviewAddUniversity" class="testcases.FaceBook_L2_AutomationTest"/>
-        <method signature="FaceBook_L2_AutomationTest.gotoAboutClickOnOverviewAddCurrentCity()[pri:11, instance:testcases.FaceBook_L2_AutomationTest@60b4beb4]" name="gotoAboutClickOnOverviewAddCurrentCity" class="testcases.FaceBook_L2_AutomationTest"/>
-        <method signature="FaceBook_L2_AutomationTest.gotoAboutClickOnOverviewAddHomeTown()[pri:12, instance:testcases.FaceBook_L2_AutomationTest@60b4beb4]" name="gotoAboutClickOnOverviewAddHomeTown" class="testcases.FaceBook_L2_AutomationTest"/>
-        <method signature="FaceBook_L2_AutomationTest.gotoAboutClickOnOverviewAddRelationShipStatus()[pri:13, instance:testcases.FaceBook_L2_AutomationTest@60b4beb4]" name="gotoAboutClickOnOverviewAddRelationShipStatus" class="testcases.FaceBook_L2_AutomationTest"/>
-        <method signature="FaceBook_L2_AutomationTest.gotoAboutClickOnOverviewEditPhoneNumber()[pri:14, instance:testcases.FaceBook_L2_AutomationTest@60b4beb4]" name="gotoAboutClickOnOverviewEditPhoneNumber" class="testcases.FaceBook_L2_AutomationTest"/>
-        <method signature="FaceBook_L2_AutomationTest.go_to_notification()[pri:15, instance:testcases.FaceBook_L2_AutomationTest@60b4beb4]" name="go_to_notification" class="testcases.FaceBook_L2_AutomationTest"/>
-        <method signature="FaceBook_L2_AutomationTest.go_to_marketPlace()[pri:17, instance:testcases.FaceBook_L2_AutomationTest@60b4beb4]" name="go_to_marketPlace" class="testcases.FaceBook_L2_AutomationTest"/>
-        <method signature="FaceBook_L2_AutomationTest.like_any_post()[pri:18, instance:testcases.FaceBook_L2_AutomationTest@60b4beb4]" name="like_any_post" class="testcases.FaceBook_L2_AutomationTest"/>
-        <method signature="FaceBook_L2_AutomationTest.click_on_events()[pri:19, instance:testcases.FaceBook_L2_AutomationTest@60b4beb4]" name="click_on_events" class="testcases.FaceBook_L2_AutomationTest"/>
+        <method signature="Shopping_Cart_Automation_L2_TestCases.goHomeIconclickonseleniumrubyThenClickOnAddToBasketThenClickOnViewBasket()[pri:0, instance:testcases.Shopping_Cart_Automation_L2_TestCases@e24ddd0]" name="goHomeIconclickonseleniumrubyThenClickOnAddToBasketThenClickOnViewBasket" class="testcases.Shopping_Cart_Automation_L2_TestCases"/>
+        <method signature="Shopping_Cart_Automation_L1_TestCases.verifyNavigateTotTheShoppingCartpage()[pri:1, instance:testcases.Shopping_Cart_Automation_L1_TestCases@7a11c4c7]" name="verifyNavigateTotTheShoppingCartpage" class="testcases.Shopping_Cart_Automation_L1_TestCases"/>
+        <method signature="Shopping_Cart_Automation_L1_TestCases.checkShopMenuIsPresent()[pri:2, instance:testcases.Shopping_Cart_Automation_L1_TestCases@7a11c4c7]" name="checkShopMenuIsPresent" class="testcases.Shopping_Cart_Automation_L1_TestCases"/>
+        <method signature="Shopping_Cart_Automation_L1_TestCases.clickOnShopMenuAndValidateTheTitle()[pri:3, instance:testcases.Shopping_Cart_Automation_L1_TestCases@7a11c4c7]" name="clickOnShopMenuAndValidateTheTitle" class="testcases.Shopping_Cart_Automation_L1_TestCases"/>
+        <method signature="Shopping_Cart_Automation_L1_TestCases.clickOnLogoAndVerifyItIsNavigateToTheHomePage()[pri:4, instance:testcases.Shopping_Cart_Automation_L1_TestCases@7a11c4c7]" name="clickOnLogoAndVerifyItIsNavigateToTheHomePage" class="testcases.Shopping_Cart_Automation_L1_TestCases"/>
+        <method signature="Shopping_Cart_Automation_L1_TestCases.checkIfHomePageHasASectionOfNewArrivals()[pri:5, instance:testcases.Shopping_Cart_Automation_L1_TestCases@7a11c4c7]" name="checkIfHomePageHasASectionOfNewArrivals" class="testcases.Shopping_Cart_Automation_L1_TestCases"/>
+        <method signature="Shopping_Cart_Automation_L1_TestCases.checkArrivalsSectionHasExactly3ProductsEnlisted()[pri:6, instance:testcases.Shopping_Cart_Automation_L1_TestCases@7a11c4c7]" name="checkArrivalsSectionHasExactly3ProductsEnlisted" class="testcases.Shopping_Cart_Automation_L1_TestCases"/>
+        <method signature="Shopping_Cart_Automation_L1_TestCases.clickOnSeleniumRubyProductAndValidateTheTitleOfThisPage()[pri:7, instance:testcases.Shopping_Cart_Automation_L1_TestCases@7a11c4c7]" name="clickOnSeleniumRubyProductAndValidateTheTitleOfThisPage" class="testcases.Shopping_Cart_Automation_L1_TestCases"/>
+        <method signature="Shopping_Cart_Automation_L1_TestCases.verifyAddBasketButtonIsPresentAndClickOnAddBasket()[pri:8, instance:testcases.Shopping_Cart_Automation_L1_TestCases@7a11c4c7]" name="verifyAddBasketButtonIsPresentAndClickOnAddBasket" class="testcases.Shopping_Cart_Automation_L1_TestCases"/>
+        <method signature="Shopping_Cart_Automation_L1_TestCases.viewBasketButtonIsPresentAndClickOnIt()[pri:9, instance:testcases.Shopping_Cart_Automation_L1_TestCases@7a11c4c7]" name="viewBasketButtonIsPresentAndClickOnIt" class="testcases.Shopping_Cart_Automation_L1_TestCases"/>
+        <method signature="Shopping_Cart_Automation_L1_TestCases.userIsNavigateToTheBasketPage()[pri:10, instance:testcases.Shopping_Cart_Automation_L1_TestCases@7a11c4c7]" name="userIsNavigateToTheBasketPage" class="testcases.Shopping_Cart_Automation_L1_TestCases"/>
+        <method signature="Shopping_Cart_Automation_L2_TestCases.seleniumRubyProductIsPresent()[pri:11, instance:testcases.Shopping_Cart_Automation_L2_TestCases@e24ddd0]" name="seleniumRubyProductIsPresent" class="testcases.Shopping_Cart_Automation_L2_TestCases"/>
+        <method signature="Shopping_Cart_Automation_L2_TestCases.verifyCouponCodeFieldAndApplyCouponButtonIsPresent()[pri:12, instance:testcases.Shopping_Cart_Automation_L2_TestCases@e24ddd0]" name="verifyCouponCodeFieldAndApplyCouponButtonIsPresent" class="testcases.Shopping_Cart_Automation_L2_TestCases"/>
+        <method signature="Shopping_Cart_Automation_L2_TestCases.priceDefinedAfterProductName()[pri:13, instance:testcases.Shopping_Cart_Automation_L2_TestCases@e24ddd0]" name="priceDefinedAfterProductName" class="testcases.Shopping_Cart_Automation_L2_TestCases"/>
+        <method signature="Shopping_Cart_Automation_L2_TestCases.quantityDefinedAfterProductPrice()[pri:14, instance:testcases.Shopping_Cart_Automation_L2_TestCases@e24ddd0]" name="quantityDefinedAfterProductPrice" class="testcases.Shopping_Cart_Automation_L2_TestCases"/>
+        <method signature="Shopping_Cart_Automation_L2_TestCases.totalDefinedIsPresentAfterQuantity()[pri:15, instance:testcases.Shopping_Cart_Automation_L2_TestCases@e24ddd0]" name="totalDefinedIsPresentAfterQuantity" class="testcases.Shopping_Cart_Automation_L2_TestCases"/>
+        <method signature="Shopping_Cart_Automation_L2_TestCases.removeIconIsPresentAndRemoveTheProduct()[pri:16, instance:testcases.Shopping_Cart_Automation_L2_TestCases@e24ddd0]" name="removeIconIsPresentAndRemoveTheProduct" class="testcases.Shopping_Cart_Automation_L2_TestCases"/>
+        <method signature="Shopping_Cart_Automation_L2_TestCases.validateTheMessageAfterRemovingAProduct()[pri:17, instance:testcases.Shopping_Cart_Automation_L2_TestCases@e24ddd0]" name="validateTheMessageAfterRemovingAProduct" class="testcases.Shopping_Cart_Automation_L2_TestCases"/>
+        <method signature="Shopping_Cart_Automation_L2_TestCases.gotoTheHomeIconclickonseleniumrubyThenClickOnAddToBasketThenClickOnViewBasket()[pri:18, instance:testcases.Shopping_Cart_Automation_L2_TestCases@e24ddd0]" name="gotoTheHomeIconclickonseleniumrubyThenClickOnAddToBasketThenClickOnViewBasket" class="testcases.Shopping_Cart_Automation_L2_TestCases"/>
+        <method signature="Shopping_Cart_Automation_L2_TestCases.validateIfWeHaveAProceedToCheckoutButtonOrNot()[pri:19, instance:testcases.Shopping_Cart_Automation_L2_TestCases@e24ddd0]" name="validateIfWeHaveAProceedToCheckoutButtonOrNot" class="testcases.Shopping_Cart_Automation_L2_TestCases"/>
       </group> <!-- sanity -->
     </groups>
-    <test started-at="2024-03-04T12:18:16 IST" name="Test" finished-at="2024-03-04T12:18:24 IST" duration-ms="7981">
-      <class name="testcases.FaceBook_L2_AutomationTest">
-        <test-method is-config="true" signature="initBrowser(java.lang.String,java.lang.String)[pri:0, instance:testcases.FaceBook_L2_AutomationTest@60b4beb4]" started-at="2024-03-04T12:18:16 IST" name="initBrowser" finished-at="2024-03-04T12:18:24 IST" duration-ms="7520" status="PASS">
-=======
-<testng-results ignored="0" total="34" passed="11" failed="23" skipped="0">
-  <reporter-output>
-  </reporter-output>
-  <suite started-at="2024-03-04T10:28:43 IST" name="Suite" finished-at="2024-03-04T10:29:30 IST" duration-ms="46448">
-    <groups>
-      <group name="sanity">
-        <method signature="Practice_Automation_L1_TestCases.check_Shop_Menu()[pri:1, instance:testcases.Practice_Automation_L1_TestCases@2d6c53fc]" name="check_Shop_Menu" class="testcases.Practice_Automation_L1_TestCases"/>
-        <method signature="Practice_Automation_L1_TestCases.click_Shop_Menu()[pri:2, instance:testcases.Practice_Automation_L1_TestCases@2d6c53fc]" name="click_Shop_Menu" class="testcases.Practice_Automation_L1_TestCases"/>
-        <method signature="Practice_Automation_L1_TestCases.navigate_to_Shop_page()[pri:3, instance:testcases.Practice_Automation_L1_TestCases@2d6c53fc]" name="navigate_to_Shop_page" class="testcases.Practice_Automation_L1_TestCases"/>
-        <method signature="Practice_Automation_L1_TestCases.click_on_cart()[pri:4, instance:testcases.Practice_Automation_L1_TestCases@2d6c53fc]" name="click_on_cart" class="testcases.Practice_Automation_L1_TestCases"/>
-        <method signature="Practice_Automation_L1_TestCases.navigateTobasketpage()[pri:5, instance:testcases.Practice_Automation_L1_TestCases@2d6c53fc]" name="navigateTobasketpage" class="testcases.Practice_Automation_L1_TestCases"/>
-        <method signature="Practice_Automation_L1_TestCases.Home_menu()[pri:6, instance:testcases.Practice_Automation_L1_TestCases@2d6c53fc]" name="Home_menu" class="testcases.Practice_Automation_L1_TestCases"/>
-        <method signature="Practice_Automation_L1_TestCases.Click_on_Home()[pri:7, instance:testcases.Practice_Automation_L1_TestCases@2d6c53fc]" name="Click_on_Home" class="testcases.Practice_Automation_L1_TestCases"/>
-        <method signature="Practice_Automation_L1_TestCases.navigateToHomePage()[pri:8, instance:testcases.Practice_Automation_L1_TestCases@2d6c53fc]" name="navigateToHomePage" class="testcases.Practice_Automation_L1_TestCases"/>
-        <method signature="Practice_Automation_L1_TestCases.new_arrival_is_present()[pri:9, instance:testcases.Practice_Automation_L1_TestCases@2d6c53fc]" name="new_arrival_is_present" class="testcases.Practice_Automation_L1_TestCases"/>
-        <method signature="Practice_Automation_L1_TestCases.seleniumu_Ruby_is_present()[pri:10, instance:testcases.Practice_Automation_L1_TestCases@2d6c53fc]" name="seleniumu_Ruby_is_present" class="testcases.Practice_Automation_L1_TestCases"/>
-        <method signature="Practice_Automation_L1_TestCases.one_product_isClickable()[pri:11, instance:testcases.Practice_Automation_L1_TestCases@2d6c53fc]" name="one_product_isClickable" class="testcases.Practice_Automation_L1_TestCases"/>
-        <method signature="Practice_Automation_L1_TestCases.navigates_to_Selenium_Ruby()[pri:12, instance:testcases.Practice_Automation_L1_TestCases@2d6c53fc]" name="navigates_to_Selenium_Ruby" class="testcases.Practice_Automation_L1_TestCases"/>
-        <method signature="Practice_Automation_L1_TestCases.add_to_basket()[pri:13, instance:testcases.Practice_Automation_L1_TestCases@2d6c53fc]" name="add_to_basket" class="testcases.Practice_Automation_L1_TestCases"/>
-        <method signature="Practice_Automation_L1_TestCases.Click_on_add_to_basket()[pri:14, instance:testcases.Practice_Automation_L1_TestCases@2d6c53fc]" name="Click_on_add_to_basket" class="testcases.Practice_Automation_L1_TestCases"/>
-        <method signature="Practice_Automation_L1_TestCases.verify_message()[pri:15, instance:testcases.Practice_Automation_L1_TestCases@2d6c53fc]" name="verify_message" class="testcases.Practice_Automation_L1_TestCases"/>
-        <method signature="Practice_Automation_L1_TestCases.GoToCart()[pri:16, instance:testcases.Practice_Automation_L1_TestCases@2d6c53fc]" name="GoToCart" class="testcases.Practice_Automation_L1_TestCases"/>
-        <method signature="Practice_Automation_L1_TestCases.CheckItem()[pri:17, instance:testcases.Practice_Automation_L1_TestCases@2d6c53fc]" name="CheckItem" class="testcases.Practice_Automation_L1_TestCases"/>
-        <method signature="Practice_Automation_L1_TestCases.Apply_Coupon()[pri:18, instance:testcases.Practice_Automation_L1_TestCases@2d6c53fc]" name="Apply_Coupon" class="testcases.Practice_Automation_L1_TestCases"/>
-        <method signature="Practice_Automation_L1_TestCases.Price_Defined()[pri:19, instance:testcases.Practice_Automation_L1_TestCases@2d6c53fc]" name="Price_Defined" class="testcases.Practice_Automation_L1_TestCases"/>
-        <method signature="Practice_Automation_L1_TestCases.Price_Defined_in_correct_Format()[pri:20, instance:testcases.Practice_Automation_L1_TestCases@2d6c53fc]" name="Price_Defined_in_correct_Format" class="testcases.Practice_Automation_L1_TestCases"/>
-        <method signature="Practice_Automation_L1_TestCases.Quantity_Defined()[pri:21, instance:testcases.Practice_Automation_L1_TestCases@2d6c53fc]" name="Quantity_Defined" class="testcases.Practice_Automation_L1_TestCases"/>
-        <method signature="Practice_Automation_L1_TestCases.quantity_Defined_in_correct_Format()[pri:22, instance:testcases.Practice_Automation_L1_TestCases@2d6c53fc]" name="quantity_Defined_in_correct_Format" class="testcases.Practice_Automation_L1_TestCases"/>
-        <method signature="Practice_Automation_L1_TestCases.Total_Defined()[pri:23, instance:testcases.Practice_Automation_L1_TestCases@2d6c53fc]" name="Total_Defined" class="testcases.Practice_Automation_L1_TestCases"/>
-        <method signature="Practice_Automation_L1_TestCases.Total_Defined_in_Correct_Format()[pri:24, instance:testcases.Practice_Automation_L1_TestCases@2d6c53fc]" name="Total_Defined_in_Correct_Format" class="testcases.Practice_Automation_L1_TestCases"/>
-        <method signature="Practice_Automation_L1_TestCases.Tax_Defined()[pri:25, instance:testcases.Practice_Automation_L1_TestCases@2d6c53fc]" name="Tax_Defined" class="testcases.Practice_Automation_L1_TestCases"/>
-        <method signature="Practice_Automation_L1_TestCases.Tax_Defined_in_correct_Format()[pri:26, instance:testcases.Practice_Automation_L1_TestCases@2d6c53fc]" name="Tax_Defined_in_correct_Format" class="testcases.Practice_Automation_L1_TestCases"/>
-        <method signature="Practice_Automation_L1_TestCases.remove_option_is_present()[pri:27, instance:testcases.Practice_Automation_L1_TestCases@2d6c53fc]" name="remove_option_is_present" class="testcases.Practice_Automation_L1_TestCases"/>
-        <method signature="Practice_Automation_L1_TestCases.remove()[pri:28, instance:testcases.Practice_Automation_L1_TestCases@2d6c53fc]" name="remove" class="testcases.Practice_Automation_L1_TestCases"/>
-        <method signature="Practice_Automation_L1_TestCases.ValidateAnRemoveMessage()[pri:29, instance:testcases.Practice_Automation_L1_TestCases@2d6c53fc]" name="ValidateAnRemoveMessage" class="testcases.Practice_Automation_L1_TestCases"/>
-        <method signature="Practice_Automation_L1_TestCases.updateQuantity()[pri:30, instance:testcases.Practice_Automation_L1_TestCases@2d6c53fc]" name="updateQuantity" class="testcases.Practice_Automation_L1_TestCases"/>
-        <method signature="Practice_Automation_L1_TestCases.Update_Basket()[pri:31, instance:testcases.Practice_Automation_L1_TestCases@2d6c53fc]" name="Update_Basket" class="testcases.Practice_Automation_L1_TestCases"/>
-        <method signature="Practice_Automation_L1_TestCases.Proceed_to_checkout()[pri:32, instance:testcases.Practice_Automation_L1_TestCases@2d6c53fc]" name="Proceed_to_checkout" class="testcases.Practice_Automation_L1_TestCases"/>
-        <method signature="Practice_Automation_L1_TestCases.Click_Proceed_to_checkout()[pri:33, instance:testcases.Practice_Automation_L1_TestCases@2d6c53fc]" name="Click_Proceed_to_checkout" class="testcases.Practice_Automation_L1_TestCases"/>
-        <method signature="Practice_Automation_L1_TestCases.navigate_to_Billing_Details_page()[pri:34, instance:testcases.Practice_Automation_L1_TestCases@2d6c53fc]" name="navigate_to_Billing_Details_page" class="testcases.Practice_Automation_L1_TestCases"/>
-      </group> <!-- sanity -->
-    </groups>
-    <test started-at="2024-03-04T10:28:43 IST" name="Test" finished-at="2024-03-04T10:29:30 IST" duration-ms="46448">
-      <class name="testcases.Practice_Automation_L1_TestCases">
-        <test-method is-config="true" signature="initBrowser(java.lang.String,java.lang.String)[pri:0, instance:testcases.Practice_Automation_L1_TestCases@2d6c53fc]" started-at="2024-03-04T10:28:43 IST" name="initBrowser" finished-at="2024-03-04T10:28:55 IST" duration-ms="11164" status="PASS">
->>>>>>> 121b450 (added the new usecases for demo automation testing site)
+    <test started-at="2024-03-11T12:35:37 IST" name="Test" finished-at="2024-03-11T12:35:50 IST" duration-ms="12093">
+      <class name="testcases.Shopping_Cart_Automation_L1_TestCases">
+        <test-method is-config="true" signature="initBrowser(java.lang.String,java.lang.String)[pri:0, instance:testcases.Shopping_Cart_Automation_L1_TestCases@7a11c4c7]" started-at="2024-03-11T12:35:37 IST" name="initBrowser" finished-at="2024-03-11T12:35:44 IST" duration-ms="6148" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -92,837 +45,113 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initBrowser -->
-<<<<<<< HEAD
-        <test-method signature="validateFacebookHomePage()[pri:1, instance:testcases.FaceBook_L2_AutomationTest@60b4beb4]" started-at="2024-03-04T12:18:24 IST" name="validateFacebookHomePage" description="after Logged In, Validate the title of Facebook Home Page " finished-at="2024-03-04T12:18:24 IST" duration-ms="29" status="PASS">
+        <test-method signature="verifyNavigateTotTheShoppingCartpage()[pri:1, instance:testcases.Shopping_Cart_Automation_L1_TestCases@7a11c4c7]" started-at="2024-03-11T12:35:44 IST" name="verifyNavigateTotTheShoppingCartpage" description="Verify navigate to the shopping cart home page" finished-at="2024-03-11T12:35:44 IST" duration-ms="97" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validateFacebookHomePage -->
-        <test-method signature="validateProfileName()[pri:2, instance:testcases.FaceBook_L2_AutomationTest@60b4beb4]" started-at="2024-03-04T12:18:24 IST" name="validateProfileName" description="ClickOn Profile Icon and Validate the Profile Name " finished-at="2024-03-04T12:18:24 IST" duration-ms="4" status="PASS">
+        </test-method> <!-- verifyNavigateTotTheShoppingCartpage -->
+        <test-method signature="checkShopMenuIsPresent()[pri:2, instance:testcases.Shopping_Cart_Automation_L1_TestCases@7a11c4c7]" started-at="2024-03-11T12:35:44 IST" name="checkShopMenuIsPresent" description="Check Shop Menu Option is present or not" finished-at="2024-03-11T12:35:44 IST" duration-ms="145" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validateProfileName -->
-        <test-method signature="uploadProfilePicture()[pri:3, instance:testcases.FaceBook_L2_AutomationTest@60b4beb4]" started-at="2024-03-04T12:18:24 IST" name="uploadProfilePicture" description="ClickOn Profile Name and upload the profile Picture " finished-at="2024-03-04T12:18:24 IST" duration-ms="1" status="PASS">
+        </test-method> <!-- checkShopMenuIsPresent -->
+        <test-method signature="clickOnShopMenuAndValidateTheTitle()[pri:3, instance:testcases.Shopping_Cart_Automation_L1_TestCases@7a11c4c7]" started-at="2024-03-11T12:35:44 IST" name="clickOnShopMenuAndValidateTheTitle" description="Click on “Shop” Menu Option and validate successfully navigate to the shop page or not" finished-at="2024-03-11T12:35:45 IST" duration-ms="635" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- uploadProfilePicture -->
-        <test-method signature="uploadCoverPhoto()[pri:4, instance:testcases.FaceBook_L2_AutomationTest@60b4beb4]" started-at="2024-03-04T12:18:24 IST" name="uploadCoverPhoto" description="clickOn Add Cover Photo and Upload a cover photo" finished-at="2024-03-04T12:18:24 IST" duration-ms="5" status="PASS">
+        </test-method> <!-- clickOnShopMenuAndValidateTheTitle -->
+        <test-method signature="clickOnLogoAndVerifyItIsNavigateToTheHomePage()[pri:4, instance:testcases.Shopping_Cart_Automation_L1_TestCases@7a11c4c7]" started-at="2024-03-11T12:35:45 IST" name="clickOnLogoAndVerifyItIsNavigateToTheHomePage" description="Click on the Automation practice site logo Verify navigate to the home page by clicking on the Logo" finished-at="2024-03-11T12:35:45 IST" duration-ms="804" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- uploadCoverPhoto -->
-        <test-method signature="clickOnEditProfileAddDetailsInBioSections()[pri:5, instance:testcases.FaceBook_L2_AutomationTest@60b4beb4]" started-at="2024-03-04T12:18:24 IST" name="clickOnEditProfileAddDetailsInBioSections" description="click On Edit Profile And fill The Detail In Bio Section" finished-at="2024-03-04T12:18:24 IST" duration-ms="1" status="PASS">
+        </test-method> <!-- clickOnLogoAndVerifyItIsNavigateToTheHomePage -->
+        <test-method signature="checkIfHomePageHasASectionOfNewArrivals()[pri:5, instance:testcases.Shopping_Cart_Automation_L1_TestCases@7a11c4c7]" started-at="2024-03-11T12:35:45 IST" name="checkIfHomePageHasASectionOfNewArrivals" description="Check if Home page has a section of new arrivals" finished-at="2024-03-11T12:35:45 IST" duration-ms="93" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- clickOnEditProfileAddDetailsInBioSections -->
-        <test-method signature="clicOnPostGoToIntoAddDetailsInAddBio()[pri:6, instance:testcases.FaceBook_L2_AutomationTest@60b4beb4]" started-at="2024-03-04T12:18:24 IST" name="clicOnPostGoToIntoAddDetailsInAddBio" description="click On Posts and Go Into and Add Details In Add Bio" finished-at="2024-03-04T12:18:24 IST" duration-ms="1" status="PASS">
+        </test-method> <!-- checkIfHomePageHasASectionOfNewArrivals -->
+        <test-method signature="checkArrivalsSectionHasExactly3ProductsEnlisted()[pri:6, instance:testcases.Shopping_Cart_Automation_L1_TestCases@7a11c4c7]" started-at="2024-03-11T12:35:45 IST" name="checkArrivalsSectionHasExactly3ProductsEnlisted" description="Check of “Arrivals” section has exactly 3 products enlisted" finished-at="2024-03-11T12:35:46 IST" duration-ms="257" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- clicOnPostGoToIntoAddDetailsInAddBio -->
-        <test-method signature="clicOnPostGoToIntoClickOnEditDetailsAddWorkPlace()[pri:7, instance:testcases.FaceBook_L2_AutomationTest@60b4beb4]" started-at="2024-03-04T12:18:24 IST" name="clicOnPostGoToIntoClickOnEditDetailsAddWorkPlace" description="click On Posts and Go Into and Click On Edit Details Add WorkPlace" finished-at="2024-03-04T12:18:24 IST" duration-ms="6" status="PASS">
+        </test-method> <!-- checkArrivalsSectionHasExactly3ProductsEnlisted -->
+        <test-method signature="clickOnSeleniumRubyProductAndValidateTheTitleOfThisPage()[pri:7, instance:testcases.Shopping_Cart_Automation_L1_TestCases@7a11c4c7]" started-at="2024-03-11T12:35:46 IST" name="clickOnSeleniumRubyProductAndValidateTheTitleOfThisPage" description="Click on Selenium Ruby Product and validate the title of the page" finished-at="2024-03-11T12:35:46 IST" duration-ms="659" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- clicOnPostGoToIntoClickOnEditDetailsAddWorkPlace -->
-        <test-method signature="clicOnPostGoToIntoClickOnEditFeaturedAddOneFeaturedPhotos()[pri:7, instance:testcases.FaceBook_L2_AutomationTest@60b4beb4]" started-at="2024-03-04T12:18:24 IST" name="clicOnPostGoToIntoClickOnEditFeaturedAddOneFeaturedPhotos" description="click On Posts and GoTo Click On Edit Featured and Add One Featured Photos" finished-at="2024-03-04T12:18:24 IST" duration-ms="2" status="PASS">
+        </test-method> <!-- clickOnSeleniumRubyProductAndValidateTheTitleOfThisPage -->
+        <test-method signature="verifyAddBasketButtonIsPresentAndClickOnAddBasket()[pri:8, instance:testcases.Shopping_Cart_Automation_L1_TestCases@7a11c4c7]" started-at="2024-03-11T12:35:46 IST" name="verifyAddBasketButtonIsPresentAndClickOnAddBasket" description="Check product details page has an option ADD TO BASKET and Click on ADD TO BASKET" finished-at="2024-03-11T12:35:47 IST" duration-ms="591" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- clicOnPostGoToIntoClickOnEditFeaturedAddOneFeaturedPhotos -->
-        <test-method signature="gotoAboutClickOnOverviewAddWorkplace()[pri:8, instance:testcases.FaceBook_L2_AutomationTest@60b4beb4]" started-at="2024-03-04T12:18:24 IST" name="gotoAboutClickOnOverviewAddWorkplace" description="go to About Click On Overview Add Workplace" finished-at="2024-03-04T12:18:24 IST" duration-ms="4" status="PASS">
+        </test-method> <!-- verifyAddBasketButtonIsPresentAndClickOnAddBasket -->
+        <test-method signature="viewBasketButtonIsPresentAndClickOnIt()[pri:9, instance:testcases.Shopping_Cart_Automation_L1_TestCases@7a11c4c7]" started-at="2024-03-11T12:35:47 IST" name="viewBasketButtonIsPresentAndClickOnIt" description="Verify that view basket button is present after click on add to basket and click on View basket" finished-at="2024-03-11T12:35:48 IST" duration-ms="580" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- gotoAboutClickOnOverviewAddWorkplace -->
-        <test-method signature="gotoAboutClickOnOverviewAddSecondaryHighSchool()[pri:9, instance:testcases.FaceBook_L2_AutomationTest@60b4beb4]" started-at="2024-03-04T12:18:24 IST" name="gotoAboutClickOnOverviewAddSecondaryHighSchool" description="go to About and Click On Overview and Add Secondary High School" finished-at="2024-03-04T12:18:24 IST" duration-ms="2" status="PASS">
+        </test-method> <!-- viewBasketButtonIsPresentAndClickOnIt -->
+        <test-method signature="userIsNavigateToTheBasketPage()[pri:10, instance:testcases.Shopping_Cart_Automation_L1_TestCases@7a11c4c7]" started-at="2024-03-11T12:35:48 IST" name="userIsNavigateToTheBasketPage" description="Verify that user is navigate to the  Cart or Basket page" finished-at="2024-03-11T12:35:48 IST" duration-ms="29" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- gotoAboutClickOnOverviewAddSecondaryHighSchool -->
-        <test-method signature="gotoAboutClickOnOverviewAddUniversity()[pri:10, instance:testcases.FaceBook_L2_AutomationTest@60b4beb4]" started-at="2024-03-04T12:18:24 IST" name="gotoAboutClickOnOverviewAddUniversity" description="go to About and Click On Over view and Add University" finished-at="2024-03-04T12:18:24 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- gotoAboutClickOnOverviewAddUniversity -->
-        <test-method signature="gotoAboutClickOnOverviewAddCurrentCity()[pri:11, instance:testcases.FaceBook_L2_AutomationTest@60b4beb4]" started-at="2024-03-04T12:18:24 IST" name="gotoAboutClickOnOverviewAddCurrentCity" description="go to About and Click On Overview and Add Current City" finished-at="2024-03-04T12:18:24 IST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- gotoAboutClickOnOverviewAddCurrentCity -->
-        <test-method signature="gotoAboutClickOnOverviewAddHomeTown()[pri:12, instance:testcases.FaceBook_L2_AutomationTest@60b4beb4]" started-at="2024-03-04T12:18:24 IST" name="gotoAboutClickOnOverviewAddHomeTown" description="go to About and Click On Overview and Add HomeTown" finished-at="2024-03-04T12:18:24 IST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- gotoAboutClickOnOverviewAddHomeTown -->
-        <test-method signature="gotoAboutClickOnOverviewAddRelationShipStatus()[pri:13, instance:testcases.FaceBook_L2_AutomationTest@60b4beb4]" started-at="2024-03-04T12:18:24 IST" name="gotoAboutClickOnOverviewAddRelationShipStatus" description="go to About and Click On Overview and Add RelationShip Status" finished-at="2024-03-04T12:18:24 IST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- gotoAboutClickOnOverviewAddRelationShipStatus -->
-        <test-method signature="gotoAboutClickOnOverviewEditPhoneNumber()[pri:14, instance:testcases.FaceBook_L2_AutomationTest@60b4beb4]" started-at="2024-03-04T12:18:24 IST" name="gotoAboutClickOnOverviewEditPhoneNumber" description="go to About Click On Overview and Edit PhoneNumber" finished-at="2024-03-04T12:18:24 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- gotoAboutClickOnOverviewEditPhoneNumber -->
-        <test-method signature="go_to_notification()[pri:15, instance:testcases.FaceBook_L2_AutomationTest@60b4beb4]" started-at="2024-03-04T12:18:24 IST" name="go_to_notification" description="after log in Check notifications and mark them as read " finished-at="2024-03-04T12:18:24 IST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- go_to_notification -->
-        <test-method signature="go_to_marketPlace()[pri:17, instance:testcases.FaceBook_L2_AutomationTest@60b4beb4]" started-at="2024-03-04T12:18:24 IST" name="go_to_marketPlace" description=" Navigate to the marketplace and search for a specific item " finished-at="2024-03-04T12:18:24 IST" duration-ms="6" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- go_to_marketPlace -->
-        <test-method signature="like_any_post()[pri:18, instance:testcases.FaceBook_L2_AutomationTest@60b4beb4]" started-at="2024-03-04T12:18:24 IST" name="like_any_post" description=" Like a post " finished-at="2024-03-04T12:18:24 IST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- like_any_post -->
-        <test-method signature="click_on_events()[pri:19, instance:testcases.FaceBook_L2_AutomationTest@60b4beb4]" started-at="2024-03-04T12:18:24 IST" name="click_on_events" description="after logged in, click on events and click on classic." finished-at="2024-03-04T12:18:24 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- click_on_events -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.FaceBook_L2_AutomationTest@60b4beb4]" started-at="2024-03-04T12:18:24 IST" name="tearDown" finished-at="2024-03-04T12:18:24 IST" duration-ms="251" status="PASS">
+        </test-method> <!-- userIsNavigateToTheBasketPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.Shopping_Cart_Automation_L1_TestCases@7a11c4c7]" started-at="2024-03-11T12:35:48 IST" name="tearDown" finished-at="2024-03-11T12:35:48 IST" duration-ms="249" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- testcases.FaceBook_L2_AutomationTest -->
-=======
-        <test-method signature="check_Shop_Menu()[pri:1, instance:testcases.Practice_Automation_L1_TestCases@2d6c53fc]" started-at="2024-03-04T10:28:55 IST" name="check_Shop_Menu" description="Check if “Shop” Menu Option is available." finished-at="2024-03-04T10:28:55 IST" duration-ms="19" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
-at org.testng.Assert.fail(Assert.java:111)
-at org.testng.Assert.failNotEquals(Assert.java:1578)
-at org.testng.Assert.assertTrue(Assert.java:57)
-at org.testng.Assert.assertTrue(Assert.java:67)
-at testcases.Practice_Automation_L1_TestCases.check_Shop_Menu(Practice_Automation_L1_TestCases.java:63)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:578)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-at java.base/java.lang.Thread.run(Thread.java:1623)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+      </class> <!-- testcases.Shopping_Cart_Automation_L1_TestCases -->
+      <class name="testcases.Shopping_Cart_Automation_L2_TestCases">
+        <test-method is-config="true" signature="initBrowser(java.lang.String,java.lang.String)[pri:0, instance:testcases.Shopping_Cart_Automation_L2_TestCases@e24ddd0]" started-at="2024-03-11T12:35:37 IST" name="initBrowser" finished-at="2024-03-11T12:35:44 IST" duration-ms="6407" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dev]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- check_Shop_Menu -->
-        <test-method signature="click_Shop_Menu()[pri:2, instance:testcases.Practice_Automation_L1_TestCases@2d6c53fc]" started-at="2024-03-04T10:28:55 IST" name="click_Shop_Menu" description=" Click on “Shop” Menu Option" finished-at="2024-03-04T10:28:58 IST" duration-ms="3413" status="PASS">
+        </test-method> <!-- initBrowser -->
+        <test-method signature="goHomeIconclickonseleniumrubyThenClickOnAddToBasketThenClickOnViewBasket()[pri:0, instance:testcases.Shopping_Cart_Automation_L2_TestCases@e24ddd0]" started-at="2024-03-11T12:35:44 IST" name="goHomeIconclickonseleniumrubyThenClickOnAddToBasketThenClickOnViewBasket" description="This test is for make a flow" finished-at="2024-03-11T12:35:46 IST" duration-ms="2397" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- click_Shop_Menu -->
-        <test-method signature="navigate_to_Shop_page()[pri:3, instance:testcases.Practice_Automation_L1_TestCases@2d6c53fc]" started-at="2024-03-04T10:28:58 IST" name="navigate_to_Shop_page" description="Check if the control is successfully navigated to “Shop” page." finished-at="2024-03-04T10:28:58 IST" duration-ms="1" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
-at org.testng.Assert.fail(Assert.java:111)
-at org.testng.Assert.failNotEquals(Assert.java:1578)
-at org.testng.Assert.assertTrue(Assert.java:57)
-at org.testng.Assert.assertTrue(Assert.java:67)
-at testcases.Practice_Automation_L1_TestCases.navigate_to_Shop_page(Practice_Automation_L1_TestCases.java:100)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:578)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-at java.base/java.lang.Thread.run(Thread.java:1623)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+        </test-method> <!-- goHomeIconclickonseleniumrubyThenClickOnAddToBasketThenClickOnViewBasket -->
+        <test-method signature="seleniumRubyProductIsPresent()[pri:11, instance:testcases.Shopping_Cart_Automation_L2_TestCases@e24ddd0]" started-at="2024-03-11T12:35:46 IST" name="seleniumRubyProductIsPresent" description="Verify after clicking on View basket the Selenium Ruby  product is present or not." finished-at="2024-03-11T12:35:46 IST" duration-ms="107" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- navigate_to_Shop_page -->
-        <test-method signature="click_on_cart()[pri:4, instance:testcases.Practice_Automation_L1_TestCases@2d6c53fc]" started-at="2024-03-04T10:28:58 IST" name="click_on_cart" description="Go to cart(Click Cart icon)" finished-at="2024-03-04T10:29:01 IST" duration-ms="3131" status="PASS">
+        </test-method> <!-- seleniumRubyProductIsPresent -->
+        <test-method signature="verifyCouponCodeFieldAndApplyCouponButtonIsPresent()[pri:12, instance:testcases.Shopping_Cart_Automation_L2_TestCases@e24ddd0]" started-at="2024-03-11T12:35:46 IST" name="verifyCouponCodeFieldAndApplyCouponButtonIsPresent" description="Verify Coupon code field and Apply Coupon button is present" finished-at="2024-03-11T12:35:47 IST" duration-ms="142" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- click_on_cart -->
-        <test-method signature="navigateTobasketpage()[pri:5, instance:testcases.Practice_Automation_L1_TestCases@2d6c53fc]" started-at="2024-03-04T10:29:01 IST" name="navigateTobasketpage" description="Check if it is navigated to basket page" finished-at="2024-03-04T10:29:01 IST" duration-ms="1" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
-at org.testng.Assert.fail(Assert.java:111)
-at org.testng.Assert.failNotEquals(Assert.java:1578)
-at org.testng.Assert.assertTrue(Assert.java:57)
-at org.testng.Assert.assertTrue(Assert.java:67)
-at testcases.Practice_Automation_L1_TestCases.navigateTobasketpage(Practice_Automation_L1_TestCases.java:137)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:578)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-at java.base/java.lang.Thread.run(Thread.java:1623)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+        </test-method> <!-- verifyCouponCodeFieldAndApplyCouponButtonIsPresent -->
+        <test-method signature="priceDefinedAfterProductName()[pri:13, instance:testcases.Shopping_Cart_Automation_L2_TestCases@e24ddd0]" started-at="2024-03-11T12:35:47 IST" name="priceDefinedAfterProductName" description="Check if we have price defined after product name" finished-at="2024-03-11T12:35:47 IST" duration-ms="71" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- navigateTobasketpage -->
-        <test-method signature="Home_menu()[pri:6, instance:testcases.Practice_Automation_L1_TestCases@2d6c53fc]" started-at="2024-03-04T10:29:01 IST" name="Home_menu" description="Check if “Home” Menu Option is available on navigated page." finished-at="2024-03-04T10:29:01 IST" duration-ms="1" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected object to not be null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected object to not be null
-at org.testng.Assert.fail(Assert.java:111)
-at org.testng.Assert.assertNotNull(Assert.java:1484)
-at org.testng.Assert.assertNotNull(Assert.java:1468)
-at testcases.Practice_Automation_L1_TestCases.Home_menu(Practice_Automation_L1_TestCases.java:151)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:578)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-at java.base/java.lang.Thread.run(Thread.java:1623)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+        </test-method> <!-- priceDefinedAfterProductName -->
+        <test-method signature="quantityDefinedAfterProductPrice()[pri:14, instance:testcases.Shopping_Cart_Automation_L2_TestCases@e24ddd0]" started-at="2024-03-11T12:35:47 IST" name="quantityDefinedAfterProductPrice" description="Check if we have quantity defined after product price." finished-at="2024-03-11T12:35:47 IST" duration-ms="65" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Home_menu -->
-        <test-method signature="Click_on_Home()[pri:7, instance:testcases.Practice_Automation_L1_TestCases@2d6c53fc]" started-at="2024-03-04T10:29:01 IST" name="Click_on_Home" description="Check if “Home” Menu Option is available on navigated page." finished-at="2024-03-04T10:29:04 IST" duration-ms="3190" status="PASS">
+        </test-method> <!-- quantityDefinedAfterProductPrice -->
+        <test-method signature="totalDefinedIsPresentAfterQuantity()[pri:15, instance:testcases.Shopping_Cart_Automation_L2_TestCases@e24ddd0]" started-at="2024-03-11T12:35:47 IST" name="totalDefinedIsPresentAfterQuantity" description="Check if we have total defined is present after quantity." finished-at="2024-03-11T12:35:47 IST" duration-ms="77" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Click_on_Home -->
-        <test-method signature="navigateToHomePage()[pri:8, instance:testcases.Practice_Automation_L1_TestCases@2d6c53fc]" started-at="2024-03-04T10:29:04 IST" name="navigateToHomePage" description="Check if the control is successfully navigated to “Home” page." finished-at="2024-03-04T10:29:04 IST" duration-ms="1" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
-at org.testng.Assert.fail(Assert.java:111)
-at org.testng.Assert.failNotEquals(Assert.java:1578)
-at org.testng.Assert.assertTrue(Assert.java:57)
-at org.testng.Assert.assertTrue(Assert.java:67)
-at testcases.Practice_Automation_L1_TestCases.navigateToHomePage(Practice_Automation_L1_TestCases.java:191)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:578)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-at java.base/java.lang.Thread.run(Thread.java:1623)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+        </test-method> <!-- totalDefinedIsPresentAfterQuantity -->
+        <test-method signature="removeIconIsPresentAndRemoveTheProduct()[pri:16, instance:testcases.Shopping_Cart_Automation_L2_TestCases@e24ddd0]" started-at="2024-03-11T12:35:47 IST" name="removeIconIsPresentAndRemoveTheProduct" description="Validate if we have an option to remove an added product or not and remove the product." finished-at="2024-03-11T12:35:47 IST" duration-ms="222" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- navigateToHomePage -->
-        <test-method signature="new_arrival_is_present()[pri:9, instance:testcases.Practice_Automation_L1_TestCases@2d6c53fc]" started-at="2024-03-04T10:29:04 IST" name="new_arrival_is_present" description="Check if “Home” page has a section of new arrivals." finished-at="2024-03-04T10:29:08 IST" duration-ms="3118" status="PASS">
+        </test-method> <!-- removeIconIsPresentAndRemoveTheProduct -->
+        <test-method signature="validateTheMessageAfterRemovingAProduct()[pri:17, instance:testcases.Shopping_Cart_Automation_L2_TestCases@e24ddd0]" started-at="2024-03-11T12:35:47 IST" name="validateTheMessageAfterRemovingAProduct" description="Validate if we get a message after removing an item with its name or not." finished-at="2024-03-11T12:35:47 IST" duration-ms="389" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- new_arrival_is_present -->
-        <test-method signature="seleniumu_Ruby_is_present()[pri:10, instance:testcases.Practice_Automation_L1_TestCases@2d6c53fc]" started-at="2024-03-04T10:29:08 IST" name="seleniumu_Ruby_is_present" description="Check of “Arrivals” section has selenium ruby is present" finished-at="2024-03-04T10:29:08 IST" duration-ms="1" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected object to not be null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected object to not be null
-at org.testng.Assert.fail(Assert.java:111)
-at org.testng.Assert.assertNotNull(Assert.java:1484)
-at org.testng.Assert.assertNotNull(Assert.java:1468)
-at testcases.Practice_Automation_L1_TestCases.seleniumu_Ruby_is_present(Practice_Automation_L1_TestCases.java:222)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:578)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-at java.base/java.lang.Thread.run(Thread.java:1623)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+        </test-method> <!-- validateTheMessageAfterRemovingAProduct -->
+        <test-method signature="gotoTheHomeIconclickonseleniumrubyThenClickOnAddToBasketThenClickOnViewBasket()[pri:18, instance:testcases.Shopping_Cart_Automation_L2_TestCases@e24ddd0]" started-at="2024-03-11T12:35:47 IST" name="gotoTheHomeIconclickonseleniumrubyThenClickOnAddToBasketThenClickOnViewBasket" description="Go to the Home Icon and click on selenium ruby then click on add to basket then click on view basket to add the product" finished-at="2024-03-11T12:35:49 IST" duration-ms="1874" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- seleniumu_Ruby_is_present -->
-        <test-method signature="one_product_isClickable()[pri:11, instance:testcases.Practice_Automation_L1_TestCases@2d6c53fc]" started-at="2024-03-04T10:29:08 IST" name="one_product_isClickable" description="check one product is clickable" finished-at="2024-03-04T10:29:11 IST" duration-ms="3115" status="PASS">
+        </test-method> <!-- gotoTheHomeIconclickonseleniumrubyThenClickOnAddToBasketThenClickOnViewBasket -->
+        <test-method signature="validateIfWeHaveAProceedToCheckoutButtonOrNot()[pri:19, instance:testcases.Shopping_Cart_Automation_L2_TestCases@e24ddd0]" started-at="2024-03-11T12:35:49 IST" name="validateIfWeHaveAProceedToCheckoutButtonOrNot" description="Validate if we have a “Proceed to checkout” button or not." finished-at="2024-03-11T12:35:49 IST" duration-ms="92" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- one_product_isClickable -->
-        <test-method signature="navigates_to_Selenium_Ruby()[pri:12, instance:testcases.Practice_Automation_L1_TestCases@2d6c53fc]" started-at="2024-03-04T10:29:11 IST" name="navigates_to_Selenium_Ruby" description="Check if the control is successfully navigated to Product Details page." finished-at="2024-03-04T10:29:11 IST" duration-ms="1" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
-at org.testng.Assert.fail(Assert.java:111)
-at org.testng.Assert.failNotEquals(Assert.java:1578)
-at org.testng.Assert.assertTrue(Assert.java:57)
-at org.testng.Assert.assertTrue(Assert.java:67)
-at testcases.Practice_Automation_L1_TestCases.navigates_to_Selenium_Ruby(Practice_Automation_L1_TestCases.java:263)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:578)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-at java.base/java.lang.Thread.run(Thread.java:1623)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- navigates_to_Selenium_Ruby -->
-        <test-method signature="add_to_basket()[pri:13, instance:testcases.Practice_Automation_L1_TestCases@2d6c53fc]" started-at="2024-03-04T10:29:11 IST" name="add_to_basket" description="Check if product details page has an option “ADD TO BASKET”." finished-at="2024-03-04T10:29:14 IST" duration-ms="3097" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- add_to_basket -->
-        <test-method signature="Click_on_add_to_basket()[pri:14, instance:testcases.Practice_Automation_L1_TestCases@2d6c53fc]" started-at="2024-03-04T10:29:14 IST" name="Click_on_add_to_basket" description="Click on “ADD TO BASKET” option." finished-at="2024-03-04T10:29:17 IST" duration-ms="3167" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Click_on_add_to_basket -->
-        <test-method signature="verify_message()[pri:15, instance:testcases.Practice_Automation_L1_TestCases@2d6c53fc]" started-at="2024-03-04T10:29:17 IST" name="verify_message" description="Check if product added message is shown when product is added to basket. Check for message" finished-at="2024-03-04T10:29:17 IST" duration-ms="3" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
-at org.testng.Assert.fail(Assert.java:111)
-at org.testng.Assert.failNotEquals(Assert.java:1578)
-at org.testng.Assert.assertTrue(Assert.java:57)
-at org.testng.Assert.assertTrue(Assert.java:67)
-at testcases.Practice_Automation_L1_TestCases.verify_message(Practice_Automation_L1_TestCases.java:317)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:578)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-at java.base/java.lang.Thread.run(Thread.java:1623)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verify_message -->
-        <test-method signature="GoToCart()[pri:16, instance:testcases.Practice_Automation_L1_TestCases@2d6c53fc]" started-at="2024-03-04T10:29:17 IST" name="GoToCart" description="  Go to cart(Click Cart icon)" finished-at="2024-03-04T10:29:20 IST" duration-ms="3157" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- GoToCart -->
-        <test-method signature="CheckItem()[pri:17, instance:testcases.Practice_Automation_L1_TestCases@2d6c53fc]" started-at="2024-03-04T10:29:20 IST" name="CheckItem" description="Check how many items are there in cart." finished-at="2024-03-04T10:29:20 IST" duration-ms="1" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected object to not be null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected object to not be null
-at org.testng.Assert.fail(Assert.java:111)
-at org.testng.Assert.assertNotNull(Assert.java:1484)
-at org.testng.Assert.assertNotNull(Assert.java:1468)
-at testcases.Practice_Automation_L1_TestCases.CheckItem(Practice_Automation_L1_TestCases.java:350)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:578)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-at java.base/java.lang.Thread.run(Thread.java:1623)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- CheckItem -->
-        <test-method signature="Apply_Coupon()[pri:18, instance:testcases.Practice_Automation_L1_TestCases@2d6c53fc]" started-at="2024-03-04T10:29:20 IST" name="Apply_Coupon" description=" Check if we have “APPLY COUPON” button or not." finished-at="2024-03-04T10:29:23 IST" duration-ms="3126" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Apply_Coupon -->
-        <test-method signature="Price_Defined()[pri:19, instance:testcases.Practice_Automation_L1_TestCases@2d6c53fc]" started-at="2024-03-04T10:29:23 IST" name="Price_Defined" description="Check if we have price defined after product name." finished-at="2024-03-04T10:29:23 IST" duration-ms="1" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected object to not be null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected object to not be null
-at org.testng.Assert.fail(Assert.java:111)
-at org.testng.Assert.assertNotNull(Assert.java:1484)
-at org.testng.Assert.assertNotNull(Assert.java:1468)
-at testcases.Practice_Automation_L1_TestCases.Price_Defined(Practice_Automation_L1_TestCases.java:386)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:578)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-at java.base/java.lang.Thread.run(Thread.java:1623)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Price_Defined -->
-        <test-method signature="Price_Defined_in_correct_Format()[pri:20, instance:testcases.Practice_Automation_L1_TestCases@2d6c53fc]" started-at="2024-03-04T10:29:23 IST" name="Price_Defined_in_correct_Format" description="Check if we have price defined in correct format or not" finished-at="2024-03-04T10:29:23 IST" duration-ms="1" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected object to not be null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected object to not be null
-at org.testng.Assert.fail(Assert.java:111)
-at org.testng.Assert.assertNotNull(Assert.java:1484)
-at org.testng.Assert.assertNotNull(Assert.java:1468)
-at testcases.Practice_Automation_L1_TestCases.Price_Defined_in_correct_Format(Practice_Automation_L1_TestCases.java:404)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:578)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-at java.base/java.lang.Thread.run(Thread.java:1623)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Price_Defined_in_correct_Format -->
-        <test-method signature="Quantity_Defined()[pri:21, instance:testcases.Practice_Automation_L1_TestCases@2d6c53fc]" started-at="2024-03-04T10:29:23 IST" name="Quantity_Defined" description="Check if we have quantity defined after product price." finished-at="2024-03-04T10:29:23 IST" duration-ms="1" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected object to not be null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected object to not be null
-at org.testng.Assert.fail(Assert.java:111)
-at org.testng.Assert.assertNotNull(Assert.java:1484)
-at org.testng.Assert.assertNotNull(Assert.java:1468)
-at testcases.Practice_Automation_L1_TestCases.Quantity_Defined(Practice_Automation_L1_TestCases.java:422)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:578)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-at java.base/java.lang.Thread.run(Thread.java:1623)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Quantity_Defined -->
-        <test-method signature="quantity_Defined_in_correct_Format()[pri:22, instance:testcases.Practice_Automation_L1_TestCases@2d6c53fc]" started-at="2024-03-04T10:29:23 IST" name="quantity_Defined_in_correct_Format" description="Check if we have quantity defined in correct format or not." finished-at="2024-03-04T10:29:23 IST" duration-ms="1" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected object to not be null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected object to not be null
-at org.testng.Assert.fail(Assert.java:111)
-at org.testng.Assert.assertNotNull(Assert.java:1484)
-at org.testng.Assert.assertNotNull(Assert.java:1468)
-at testcases.Practice_Automation_L1_TestCases.quantity_Defined_in_correct_Format(Practice_Automation_L1_TestCases.java:439)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:578)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-at java.base/java.lang.Thread.run(Thread.java:1623)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- quantity_Defined_in_correct_Format -->
-        <test-method signature="Total_Defined()[pri:23, instance:testcases.Practice_Automation_L1_TestCases@2d6c53fc]" started-at="2024-03-04T10:29:23 IST" name="Total_Defined" description="Check if we have total defined after quantity." finished-at="2024-03-04T10:29:23 IST" duration-ms="1" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected object to not be null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected object to not be null
-at org.testng.Assert.fail(Assert.java:111)
-at org.testng.Assert.assertNotNull(Assert.java:1484)
-at org.testng.Assert.assertNotNull(Assert.java:1468)
-at testcases.Practice_Automation_L1_TestCases.Total_Defined(Practice_Automation_L1_TestCases.java:456)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:578)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-at java.base/java.lang.Thread.run(Thread.java:1623)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Total_Defined -->
-        <test-method signature="Total_Defined_in_Correct_Format()[pri:24, instance:testcases.Practice_Automation_L1_TestCases@2d6c53fc]" started-at="2024-03-04T10:29:23 IST" name="Total_Defined_in_Correct_Format" description="Check if we have total defined in correct format or not." finished-at="2024-03-04T10:29:23 IST" duration-ms="1" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected object to not be null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected object to not be null
-at org.testng.Assert.fail(Assert.java:111)
-at org.testng.Assert.assertNotNull(Assert.java:1484)
-at org.testng.Assert.assertNotNull(Assert.java:1468)
-at testcases.Practice_Automation_L1_TestCases.Total_Defined_in_Correct_Format(Practice_Automation_L1_TestCases.java:473)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:578)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-at java.base/java.lang.Thread.run(Thread.java:1623)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Total_Defined_in_Correct_Format -->
-        <test-method signature="Tax_Defined()[pri:25, instance:testcases.Practice_Automation_L1_TestCases@2d6c53fc]" started-at="2024-03-04T10:29:23 IST" name="Tax_Defined" description="Check if we have Tax defined after product name." finished-at="2024-03-04T10:29:23 IST" duration-ms="1" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected object to not be null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected object to not be null
-at org.testng.Assert.fail(Assert.java:111)
-at org.testng.Assert.assertNotNull(Assert.java:1484)
-at org.testng.Assert.assertNotNull(Assert.java:1468)
-at testcases.Practice_Automation_L1_TestCases.Tax_Defined(Practice_Automation_L1_TestCases.java:489)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:578)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-at java.base/java.lang.Thread.run(Thread.java:1623)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Tax_Defined -->
-        <test-method signature="Tax_Defined_in_correct_Format()[pri:26, instance:testcases.Practice_Automation_L1_TestCases@2d6c53fc]" started-at="2024-03-04T10:29:23 IST" name="Tax_Defined_in_correct_Format" description="Check if we have Tax defined in correct format or not." finished-at="2024-03-04T10:29:23 IST" duration-ms="1" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected object to not be null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected object to not be null
-at org.testng.Assert.fail(Assert.java:111)
-at org.testng.Assert.assertNotNull(Assert.java:1484)
-at org.testng.Assert.assertNotNull(Assert.java:1468)
-at testcases.Practice_Automation_L1_TestCases.Tax_Defined_in_correct_Format(Practice_Automation_L1_TestCases.java:506)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:578)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-at java.base/java.lang.Thread.run(Thread.java:1623)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Tax_Defined_in_correct_Format -->
-        <test-method signature="remove_option_is_present()[pri:27, instance:testcases.Practice_Automation_L1_TestCases@2d6c53fc]" started-at="2024-03-04T10:29:23 IST" name="remove_option_is_present" description="Validate if we have an option to remove an added product or not." finished-at="2024-03-04T10:29:26 IST" duration-ms="3164" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- remove_option_is_present -->
-        <test-method signature="remove()[pri:28, instance:testcases.Practice_Automation_L1_TestCases@2d6c53fc]" started-at="2024-03-04T10:29:26 IST" name="remove" description="Remove a product." finished-at="2024-03-04T10:29:30 IST" duration-ms="3194" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- remove -->
-        <test-method signature="ValidateAnRemoveMessage()[pri:29, instance:testcases.Practice_Automation_L1_TestCases@2d6c53fc]" started-at="2024-03-04T10:29:30 IST" name="ValidateAnRemoveMessage" description="Validate if we get a message after removing an item with its name or not." finished-at="2024-03-04T10:29:30 IST" duration-ms="1" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
-at org.testng.Assert.fail(Assert.java:111)
-at org.testng.Assert.failNotEquals(Assert.java:1578)
-at org.testng.Assert.assertTrue(Assert.java:57)
-at org.testng.Assert.assertTrue(Assert.java:67)
-at testcases.Practice_Automation_L1_TestCases.ValidateAnRemoveMessage(Practice_Automation_L1_TestCases.java:563)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:578)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-at java.base/java.lang.Thread.run(Thread.java:1623)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ValidateAnRemoveMessage -->
-        <test-method signature="updateQuantity()[pri:30, instance:testcases.Practice_Automation_L1_TestCases@2d6c53fc]" started-at="2024-03-04T10:29:30 IST" name="updateQuantity" description="Update the quantity of one of the product. Increase quantity by 1" finished-at="2024-03-04T10:29:30 IST" duration-ms="1" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected object to not be null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected object to not be null
-at org.testng.Assert.fail(Assert.java:111)
-at org.testng.Assert.assertNotNull(Assert.java:1484)
-at org.testng.Assert.assertNotNull(Assert.java:1468)
-at testcases.Practice_Automation_L1_TestCases.updateQuantity(Practice_Automation_L1_TestCases.java:578)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:578)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-at java.base/java.lang.Thread.run(Thread.java:1623)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- updateQuantity -->
-        <test-method signature="Update_Basket()[pri:31, instance:testcases.Practice_Automation_L1_TestCases@2d6c53fc]" started-at="2024-03-04T10:29:30 IST" name="Update_Basket" description="Validate if we have active Update Basket button active on updating quantity or not." finished-at="2024-03-04T10:29:30 IST" duration-ms="0" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected object to not be null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected object to not be null
-at org.testng.Assert.fail(Assert.java:111)
-at org.testng.Assert.assertNotNull(Assert.java:1484)
-at org.testng.Assert.assertNotNull(Assert.java:1468)
-at testcases.Practice_Automation_L1_TestCases.Update_Basket(Practice_Automation_L1_TestCases.java:595)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:578)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-at java.base/java.lang.Thread.run(Thread.java:1623)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Update_Basket -->
-        <test-method signature="Proceed_to_checkout()[pri:32, instance:testcases.Practice_Automation_L1_TestCases@2d6c53fc]" started-at="2024-03-04T10:29:30 IST" name="Proceed_to_checkout" description="Validate if we have a “Proceed to checkout” button or not." finished-at="2024-03-04T10:29:30 IST" duration-ms="0" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected object to not be null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected object to not be null
-at org.testng.Assert.fail(Assert.java:111)
-at org.testng.Assert.assertNotNull(Assert.java:1484)
-at org.testng.Assert.assertNotNull(Assert.java:1468)
-at testcases.Practice_Automation_L1_TestCases.Proceed_to_checkout(Practice_Automation_L1_TestCases.java:613)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:578)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-at java.base/java.lang.Thread.run(Thread.java:1623)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Proceed_to_checkout -->
-        <test-method signature="Click_Proceed_to_checkout()[pri:33, instance:testcases.Practice_Automation_L1_TestCases@2d6c53fc]" started-at="2024-03-04T10:29:30 IST" name="Click_Proceed_to_checkout" description="Click on “Proceed to checkout” button." finished-at="2024-03-04T10:29:30 IST" duration-ms="0" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected object to not be null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected object to not be null
-at org.testng.Assert.fail(Assert.java:111)
-at org.testng.Assert.assertNotNull(Assert.java:1484)
-at org.testng.Assert.assertNotNull(Assert.java:1468)
-at testcases.Practice_Automation_L1_TestCases.Click_Proceed_to_checkout(Practice_Automation_L1_TestCases.java:631)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:578)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-at java.base/java.lang.Thread.run(Thread.java:1623)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Click_Proceed_to_checkout -->
-        <test-method signature="navigate_to_Billing_Details_page()[pri:34, instance:testcases.Practice_Automation_L1_TestCases@2d6c53fc]" started-at="2024-03-04T10:29:30 IST" name="navigate_to_Billing_Details_page" description="On clicking it, validate do we navigate to Billing Details page having “Billing Details” as heading or not" finished-at="2024-03-04T10:29:30 IST" duration-ms="2" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
-at org.testng.Assert.fail(Assert.java:111)
-at org.testng.Assert.failNotEquals(Assert.java:1578)
-at org.testng.Assert.assertTrue(Assert.java:57)
-at org.testng.Assert.assertTrue(Assert.java:67)
-at testcases.Practice_Automation_L1_TestCases.navigate_to_Billing_Details_page(Practice_Automation_L1_TestCases.java:653)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:578)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-at java.base/java.lang.Thread.run(Thread.java:1623)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- navigate_to_Billing_Details_page -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.Practice_Automation_L1_TestCases@2d6c53fc]" started-at="2024-03-04T10:29:30 IST" name="tearDown" finished-at="2024-03-04T10:29:30 IST" duration-ms="251" status="PASS">
+        </test-method> <!-- validateIfWeHaveAProceedToCheckoutButtonOrNot -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.Shopping_Cart_Automation_L2_TestCases@e24ddd0]" started-at="2024-03-11T12:35:49 IST" name="tearDown" finished-at="2024-03-11T12:35:50 IST" duration-ms="179" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- testcases.Practice_Automation_L1_TestCases -->
->>>>>>> 121b450 (added the new usecases for demo automation testing site)
+      </class> <!-- testcases.Shopping_Cart_Automation_L2_TestCases -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

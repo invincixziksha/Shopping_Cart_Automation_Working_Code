@@ -15,7 +15,9 @@
 		<parameter name="browser" value="chrome" />
 		<parameter name="environment" value="dev" />
 		<classes>
-			<class name="testcases.Practice_Automation_L1_TestCases" />
+			<class name="testcases.Shopping_Cart_Automation_L1_TestCases" />
+			<class name="testcases.Shopping_Cart_Automation_L2_TestCases" />
+
 		</classes>
 	</test> <!-- Test -->
 </suite> <!-- Suite -->
