@@ -4,7 +4,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
 
-public class ShoppingCartAutomationPages extends StartupPage
+public class ShoppingCartL1Pages extends StartupPage
 {
 	By shopOption = By.xpath("//a[.='Shop']"); 
 	By cartMenuButton = By.xpath("//a[@title='Start shopping']"); 
@@ -25,8 +25,24 @@ public class ShoppingCartAutomationPages extends StartupPage
 	By removeIcon= By.xpath("//a[@title='Remove this item']"); 
 	By removeMessage= By.xpath("//div[@class='woocommerce-message']"); 
 	By proceedToCheckoutButton= By.xpath("//a[contains(text(),'	Proceed to Checkout')]/../..//div[@class='wc-proceed-to-checkout']"); 
+	By increasedProductInCart= By.xpath("//span[.='1 item']"); 	
+	By myAccountIcon= By.xpath("//a[.='My Account']"); 
+	By usernameTextField= By.id("username"); 
+	By passwordTextField= By.id("password"); 
+	By loginButton= By.xpath("//input[@name=\"login\"]"); 
+	By emailAddressTextField= By.id("reg_email"); 
+	By registerButton= By.xpath("//input[@name=\"register\"]"); 
+	By passwordTextFieldInRegister=By.id("reg_password");	
+	By testCasesIcon=By.xpath("//a[.='Test Cases']");
+	By atSiteIcon=By.xpath("//a[.='AT Site']");
+	By seleniumText=By.xpath("//span[.='Selenium']");
+	By appiumText=By.xpath("//span[.='//span[.='Appium']']");
+	By refineByField=By.xpath("//h4[.='Refine By >']");
+	By homeShopMenu=By.xpath("//a[.='Home']");
+	By filterByPriceSlider=By.xpath("//h4[.='Filter by price']");
 
-	public ShoppingCartAutomationPages(WebDriver driver) 
+	
+	public ShoppingCartL1Pages(WebDriver driver) 
 	{
 		super(driver);
 		PageFactory.initElements(driver, this);
@@ -170,7 +186,7 @@ public class ShoppingCartAutomationPages extends StartupPage
 		}
 		return seleniumRubyPageTitle;
 
-	}
+	}	
 	
 	/**@Test8
 	 * about this method verifyAddBasketButtonIsPresentAndClickOnAddBasket() 
@@ -233,198 +249,6 @@ public class ShoppingCartAutomationPages extends StartupPage
 
 	}
 	
-	/**@Test12
-	 * about this method seleniumRubyProductIsPresent() 
-	 * @param : null
-	 * @description : verify Selenium ruby product is present or not
-	 * @return : return true if seleniumRuby product is present InsideTheBasketPage, else false
-	 * @author : Yaksha
-	 */
-	public boolean seleniumRubyProductIsPresent() throws Exception {
-		Boolean seleniumRubyInsideTheBasketPageisDisplay = false;
-		try {
-			if(commonEvents.isDisplayed(seleniumRubyInsideTheBasketPage))
-			{
-				seleniumRubyInsideTheBasketPageisDisplay=true;
-			}
-		}catch(Exception e) {
-			throw e;
-		}
-		return seleniumRubyInsideTheBasketPageisDisplay;
-	}
-	
-	/**@Test13
-	 * about this method verifyCouponcodeFieldAndApplyCouponButtonIsPresent() 
-	 * @param : null
-	 * @description : verify coupon code field and apply coupon code button is present
-	 * @return : return true if applyCouponcodeButton is  present, else false
-	 * @author : Yaksha
-	 */
-	public boolean verifyCouponcodeFieldAndApplyCouponButtonIsPresent() throws Exception {
-		Boolean isDisplay = false;
-		try {
-			commonEvents.isDisplayed(couponcodeField);
-			if(commonEvents.isDisplayed(applyCouponcodeButton)) {
-				isDisplay=true;
-			}
-
-			
-		}catch(Exception e) {
-			throw e;
-		}
-		return isDisplay;
-	}
-	
-	/**@Test14
-	 * about this method priceDefinedAfterProductName() 
-	 * @param : null
-	 * @description : verify price ReadOnlyField is present or not
-	 * @return : return true if priceReadOnlyField is  present, else false
-	 * @author : Yaksha
-	 */
-	public boolean priceDefinedAfterProductName() throws Exception {
-		Boolean isDisplay = false;
-		try {
-			if(commonEvents.isDisplayed(priceReadOnlyField))
-			{
-				isDisplay=true;
-			}
-	
-		}catch(Exception e) {
-			throw e;
-		}
-		return isDisplay;
-	}
-	
-	/**@Test15
-	 * about this method quantityDefinedAfterProductPrice() 
-	 * @param : null
-	 * @description : verify quantity Field is present or not
-	 * @return : return true if quantityField is  present, else false
-	 * @author : Yaksha
-	 */
-	public boolean quantityDefinedAfterProductPrice() throws Exception {
-		Boolean isDisplay = false;
-		try {
-			if(commonEvents.isDisplayed(quantityField)) {
-				isDisplay=true;
-			}
-	
-		}catch(Exception e) {
-			throw e;
-		}
-		return isDisplay;
-	}
-	
-	/**@Test16
-	 * about this method totalDefinedIsPresentAfterQuantity() 
-	 * @param : null
-	 * @description : verify total field is present or not
-	 * @return : return true if totalField is  present, else false
-	 * @author : Yaksha
-	 */
-	public boolean totalDefinedIsPresentAfterQuantity() throws Exception {
-		Boolean isDisplay = false;
-		try {
-			if(commonEvents.isDisplayed(totalField)) {
-				isDisplay=true;
-			}
-	
-		}catch(Exception e) {
-			throw e;
-		}
-		return isDisplay;
-	}
-	
-	/**@Test17
-	 * about this method removeIconIsPresentandRemoveTheProduct() 
-	 * @param : null
-	 * @description : verify removeIcon is present or not then click on remove icon to remove the product
-	 * @return : return true if removeMessage is  present, else false
-	 * @author : Yaksha
-	 */
-	public boolean removeIconIsPresentandRemoveTheProduct() throws Exception {
-		Boolean removeMessageisDisplay = false;
-		try {
-			commonEvents.isDisplayed(removeIcon);
-			commonEvents.click(removeIcon);
-			if(commonEvents.isDisplayed(removeMessage)) {
-				removeMessageisDisplay=true;
-			}
-			
-	
-		}catch(Exception e) {
-			throw e;
-		}
-		return removeMessageisDisplay;
-	}
-	
-	/**@Test18
-	 * about this method validatetheMessageAfterRemovingAProduct() 
-	 * @param : null
-	 * @description : check remove message is present and validate the Message After Removing A Product
-	 * @return : return String if page title is matching
-	 * @author : Yaksha
-	 */
-	public String validatetheMessageAfterRemovingAProduct() throws Exception {
-		String messageafterRemoveProduct;
-		try {
-			commonEvents.isDisplayed(removeMessage);
-			messageafterRemoveProduct=commonEvents.getText(removeMessage);
-			System.out.println("Message is:"+messageafterRemoveProduct);
-		}catch(Exception e) {
-			throw e;
-		}
-		return messageafterRemoveProduct;
-
-	}
-	
-
-	/**@Test19 same as @Test11
-	 * about this method goToTheHomeIconclickonseleniumrubyThenClickOnAddToBasketThenClickOnViewBasket() 
-	 * @param : null
-	 * @description : go To The Home Icon then click on Seleniumruby Then Click On Add To Basket Then Click On View Basket
-	 * @return : return true if proceedToCheckoutButton is  present, else false
-	 * @author : Yaksha
-	 */
-	public boolean goToTheHomeIconclickonseleniumrubyThenClickOnAddToBasketThenClickOnViewBasket() throws Exception {
-		Boolean proceedToCheckoutButtonisDisplay = false;
-
-		try {
-			commonEvents.click(automationPracticeSiteLogo);
-			commonEvents.click(seleniumRubyProduct);
-			commonEvents.click(addToBasketButton);
-			commonEvents.click(viewBasketButton);
-			if(commonEvents.isDisplayed(proceedToCheckoutButton)) {
-				proceedToCheckoutButtonisDisplay=true;
-			}
-	
-
-		}catch(Exception e) {
-			throw e;
-		}
-		return proceedToCheckoutButtonisDisplay;
-	}
-	
-	/**@Test20
-	 * about this method validateIfWeHaveAProceedToCheckoutButtonORNot() 
-	 * @param : null
-	 * @description : verify proceedToCheckoutButton is present 
-	 * @return : return true if proceedToCheckoutButton is  present, else false
-	 * @author : Yaksha
-	 */
-	public boolean validateIfWeHaveAProceedToCheckoutButtonORNot() throws Exception {
-		Boolean proceedToCheckoutButtonisDisplay = false;
-		try {
-			if(commonEvents.isDisplayed(proceedToCheckoutButton)) {
-				proceedToCheckoutButtonisDisplay=true;
-			}
-
-		}catch(Exception e) {
-			throw e;
-		}
-		return proceedToCheckoutButtonisDisplay;
-	}
 	
 	
 }
