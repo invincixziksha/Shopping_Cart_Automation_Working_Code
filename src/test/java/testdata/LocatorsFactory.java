@@ -22,6 +22,10 @@ public class LocatorsFactory extends StartupPage {
 		By testCasesIcon=By.xpath("//a[.='Test Cases']");
 		By filterByPriceSlider=By.xpath("//h4[.='Filter by price']");
 		By toolsIcon=By.xpath("//a[.='Tools']");
+		By productTotalPrice=By.xpath("(//td[@data-title=\"Total\"])[1]");
+		By checkTheQuantity=By.xpath("//div[@class=\"quantity\"]");
+		By seleniumRubyProductPrice=By.xpath("(//span[@class=\"woocommerce-Price-amount amount\"])[1]/..");
+		By taxAmount=By.xpath("//td[@data-title=\"Tax\"]");	
 
 
 		 
@@ -102,4 +106,23 @@ public class LocatorsFactory extends StartupPage {
 			WebElement filterByPriceSliderWebElement = driver.findElement(filterByPriceSlider);
 	        return filterByPriceSliderWebElement;
 	    }
+		
+		public WebElement productTotalPriceIsPresent(WebDriver driver) {
+			WebElement productTotalPriceWebElement = driver.findElement(productTotalPrice);
+	        return productTotalPriceWebElement;
+	    }
+		public WebElement checkTheQuantityIsPresent(WebDriver driver) {
+			WebElement checkTheQuantityWebElement = driver.findElement(checkTheQuantity);
+	        return checkTheQuantityWebElement;
+	    }
+		
+		public WebElement seleniumRubyProductPriceIsPresent(WebDriver driver) {
+			WebElement seleniumRubyProductPriceWebElement = driver.findElement(seleniumRubyProductPrice);
+	        return seleniumRubyProductPriceWebElement;
+	    }
+		public WebElement taxAmountIsPresent(WebDriver driver) {
+			WebElement taxAmountIsPresentWebElement = driver.findElement(taxAmount);
+	        return taxAmountIsPresentWebElement;
+	    }
+		
 }

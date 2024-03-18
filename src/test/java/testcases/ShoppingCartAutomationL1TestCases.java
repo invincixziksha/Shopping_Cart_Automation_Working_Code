@@ -103,7 +103,38 @@ public class ShoppingCartAutomationL1TestCases extends AppTestBase
 			Assert.assertEquals(practiceAutomationInstance.userIsNavigateToTheBasketPage(), expectedData.get("basket_page_title"));
 			Assert.assertTrue(LocatorsFactoryInstance.getShopIconOption(driver).isDisplayed(), "Shop icon is not present in the current page, Please check manually");
 	}	
-						
+		@Test(priority = 11, groups = {"sanity"}, description="Verify after adding selenium ruby product in to cart verify the selenium ruby product is present inside the Cart page.")
+		public void  seleniumRubyIsPresentInsideTheCartPage() throws Exception {
+			practiceAutomationInstance= new ShoppingCartL1Pages(driver);
+			Assert.assertTrue(practiceAutomationInstance.seleniumrubyIsPresentInsideTheCartPage(),"selenium ruby product is not present , please check manually");
+			Assert.assertTrue(LocatorsFactoryInstance.seleniumRubyInsideTheBasketPageIsPresent(driver).isDisplayed(), "selenium ruby product is not present in the current page, Please check manually");
+	}
+		@Test(priority = 12, groups = {"sanity"}, description="Verify that selenium ruby product price is 500 in the Cart page")
+		public void  verifyThatSeleniumRubyProductPriceIs500() throws Exception {
+			practiceAutomationInstance= new ShoppingCartL1Pages(driver);
+			Assert.assertTrue(practiceAutomationInstance.verifythatSeleniumRubyProductPriceIs500(),"selenium ruby product price is not present , please check manually");
+			Assert.assertTrue(LocatorsFactoryInstance.seleniumRubyProductPriceIsPresent(driver).isDisplayed(), "selenium ruby product price is not present in the current page, Please check manually");
+	}
+		@Test(priority = 13, groups = {"sanity"}, description="Verify that selenium ruby product quantity is one.")
+		public void  verifyThatSeleniumRubyProductQuantityIsOne() throws Exception {
+			practiceAutomationInstance= new ShoppingCartL1Pages(driver);
+			Assert.assertTrue(practiceAutomationInstance.verifythatSeleniumRubyProductQuantityIsOne(),"selenium ruby product quantity is not present , please check manually");
+			Assert.assertTrue(LocatorsFactoryInstance.checkTheQuantityIsPresent(driver).isDisplayed(), "selenium ruby product quantity is not present in the current page, Please check manually");
+	}	
+		
+		@Test(priority = 14, groups = {"sanity"}, description="Verify that selenium ruby product total price is 500")
+		public void  verifyThatSeleniumrubyProductTotalPriceIs500() throws Exception {
+			practiceAutomationInstance= new ShoppingCartL1Pages(driver);
+			Assert.assertTrue(practiceAutomationInstance.verifythatSeleniumrubyProductTotalPriceIs500(),"selenium ruby product Total price is not present , please check manually");
+			Assert.assertTrue(LocatorsFactoryInstance.productTotalPriceIsPresent(driver).isDisplayed(), "selenium ruby product Total price is not present in the current page, Please check manually");
+	}	
+		
+		@Test(priority = 15, groups = {"sanity"}, description="Verify that SubTotal,Tax and Total fieled has contains amount as per the selenium ruby product")
+		public void  verifyThatSubTotalAndTaxAndTotalFieldHasContainsAmount() throws Exception {
+			practiceAutomationInstance= new ShoppingCartL1Pages(driver);
+			Assert.assertTrue(practiceAutomationInstance.verifythatSubTotalAndTaxAndTotalFieldHasContainsAmount(),"SubTotal,Tax And TotalField are not present , please check manually");
+			Assert.assertTrue(LocatorsFactoryInstance.taxAmountIsPresent(driver).isDisplayed(), "selenium ruby product tax amount is not present in the current page, Please check manually");
+	}	
 		@AfterClass(alwaysRun = true)
 		public void tearDown() {
 		System.out.println("before closing the browser");

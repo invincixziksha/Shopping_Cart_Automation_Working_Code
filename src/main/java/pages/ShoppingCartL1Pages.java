@@ -40,8 +40,14 @@ public class ShoppingCartL1Pages extends StartupPage
 	By refineByField=By.xpath("//h4[.='Refine By >']");
 	By homeShopMenu=By.xpath("//a[.='Home']");
 	By filterByPriceSlider=By.xpath("//h4[.='Filter by price']");
-
+	By seleniumRubyProductPrice=By.xpath("(//span[@class=\"woocommerce-Price-amount amount\"])[1]/..");
+	By quantity=By.xpath("//div[@class=\"quantity\"]");
+	By productTotalPrice=By.xpath("(//td[@data-title=\"Total\"])[1]");
+	By subTotalAmount=By.xpath("//td[@data-title=\"Subtotal\"]");
+	By taxAmount=By.xpath("//td[@data-title=\"Tax\"]");	
+	By totalAmount=By.xpath("(//td[@data-title=\"Total\"])[2]");
 	
+			
 	public ShoppingCartL1Pages(WebDriver driver) 
 	{
 		super(driver);
@@ -246,9 +252,132 @@ public class ShoppingCartL1Pages extends StartupPage
 			throw e;
 		}
 		return basketPageTitle;
-
 	}
 	
 	
+	/**@Test11
+	 * about this method seleniumrubyIsPresentInsideTheCartPage() 
+	 * @param : null
+	 * @description :seleniumruby Is PresentInside The CartPage
+	 * @return : return true if product seleniumRuby Inside The Basket Page  else false
+	 * @author : Yaksha
+	 */
+	public Boolean seleniumrubyIsPresentInsideTheCartPage() throws Exception {
+		Boolean seleniumRubyInsideTheBasketPageIsDisplayed=false;
+		try {
+			if(commonEvents.isDisplayed(seleniumRubyInsideTheBasketPage))
+			{
+				seleniumRubyInsideTheBasketPageIsDisplayed=true;
+			}
+			
+		}catch(Exception e) {
+			throw e;
+		}
+		return seleniumRubyInsideTheBasketPageIsDisplayed;
+	}
+	
+	/**@Test12
+	 * about this method verifythatSeleniumRubyProductPriceIs500() 
+	 * @param : null
+	 * @description : verify that SeleniumRuby Product Price Is 500
+	 * @return : return true if product price is displayed else false
+	 * @author : Yaksha
+	 */
+	public Boolean verifythatSeleniumRubyProductPriceIs500() throws Exception {
+		Boolean seleniumRubyProductPriceIsDisplayed=false;
+		try {
+			if(commonEvents.isDisplayed(seleniumRubyProductPrice))
+			{
+				String seleniumRubyProductAmount=commonEvents.getText(seleniumRubyProductPrice);
+				System.out.println("Product price is:"+seleniumRubyProductAmount);
+				seleniumRubyProductPriceIsDisplayed=true;
+			}
+			
+		}catch(Exception e) {
+			throw e;
+		}
+		return seleniumRubyProductPriceIsDisplayed;
+	}
+	
+	
+	
+	/**@Test13
+	 * about this method verifythatSeleniumRubyProductQuantityIsOne() 
+	 * @param : null
+	 * @description : verify that SeleniumRuby Product Quantity Is One
+	 * @return : return true if product quantity is displayed else false
+	 * @author : Yaksha
+	 */
+	public Boolean verifythatSeleniumRubyProductQuantityIsOne() throws Exception {
+		Boolean quantityIsDisplayed=false;
+		try {
+			if(commonEvents.isDisplayed(quantity))
+			{
+				quantityIsDisplayed=true;
+			}
+			
+		}catch(Exception e) {
+			throw e;
+		}
+		return quantityIsDisplayed;
+	}
+	
+	
+	
+	/**@Test14
+	 * about this method verifythatSeleniumrubyProductTotalPriceIs500() 
+	 * @param : null
+	 * @description : verify that Selenium ruby Product Total Price Is 500.
+	 * @return : return true if product total price is displayed else false
+	 * @author : Yaksha
+	 */
+	public Boolean verifythatSeleniumrubyProductTotalPriceIs500() throws Exception {
+		Boolean productTotalPriceIsDisplayed=false;
+		try {
+			if(commonEvents.isDisplayed(productTotalPrice))
+			{
+				String seleniumRubyProductTotalprice=commonEvents.getText(productTotalPrice);
+				System.out.println("Product total price is:"+seleniumRubyProductTotalprice);
+				productTotalPriceIsDisplayed=true;
+			}
+			
+		}catch(Exception e) {
+			throw e;
+		}
+		return productTotalPriceIsDisplayed;
+	}
+	
+	
+	/**@Test15
+	 * about this method verifythatSubTotalAndTaxAndTotalFieldHasContainsAmount() 
+	 * @param : null
+	 * @description : verify that SubTotal And Tax And Total Field Contains Amount
+	 * @return : return true if product total amount is displayed else false
+	 * @author : Yaksha
+	 */
+	public Boolean verifythatSubTotalAndTaxAndTotalFieldHasContainsAmount() throws Exception {
+		Boolean totalAmountIsDisplayed=false;
+		try {
+			commonEvents.isDisplayed(subTotalAmount);
+			String seleniumRubyProductSubTotal=commonEvents.getText(subTotalAmount);
+			System.out.println("Product sub total is:"+seleniumRubyProductSubTotal);
+			
+			commonEvents.isDisplayed(taxAmount);
+			String seleniumRubyProductTax=commonEvents.getText(taxAmount);
+			System.out.println("Product sub total is:"+seleniumRubyProductTax);
+			
+			if(commonEvents.isDisplayed(totalAmount))
+			{
+				String seleniumRubyProductTotalAmount=commonEvents.getText(totalAmount);
+				System.out.println("Product total amount is:"+seleniumRubyProductTotalAmount);
+				totalAmountIsDisplayed=true;
+			}
+
+			
+		}catch(Exception e) {
+			throw e;
+		}
+		return totalAmountIsDisplayed;
+	}
 	
 }

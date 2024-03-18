@@ -14,13 +14,13 @@
       </run>
     </groups>
     <classes>
-      <class name="testcases.ShoppingCartAutomationL2TestCases">
+      <class name="testcases.ShoppingCartAutomationL1TestCases">
         <methods>
-          <include name="gotoTheHomeIconclickonseleniumrubyThenClickOnAddToBasketThenClickOnViewBasket"/>
+          <include name="seleniumRubyIsPresentInsideTheCartPage"/>
           <include name="initBrowser"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- testcases.ShoppingCartAutomationL2TestCases -->
+      </class> <!-- testcases.ShoppingCartAutomationL1TestCases -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
