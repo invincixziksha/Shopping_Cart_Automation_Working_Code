@@ -11,7 +11,8 @@ import org.testng.annotations.Test;
 
 import coreUtilities.testutils.ApiHelper;
 import coreUtilities.utils.FileOperations;
-import pages.ShoppingCartAutomationPages;
+import pages.ShoppingCartL1Pages;
+import pages.ShoppingCartL2Pages;
 import pages.StartupPage;
 import testBase.AppTestBase;
 import testdata.LocatorsFactory;
@@ -22,7 +23,7 @@ public class ShoppingCartAutomationL2TestCases extends AppTestBase
 	Map<String, String> loginCredentials;
 	String expectedDataFilePath = testDataFilePath+"expected_data.json";
 	StartupPage startupPage;
-	ShoppingCartAutomationPages practiceAutomationInstance;
+	ShoppingCartL2Pages practiceAutomationInstance;
 	LocatorsFactory LocatorsFactoryInstance = new LocatorsFactory(driver);
 
 	@Parameters({"browser", "environment"})
@@ -38,68 +39,74 @@ public class ShoppingCartAutomationL2TestCases extends AppTestBase
 		startupPage = new StartupPage(driver);
 	}
 
-	@Test(priority = 11,groups = {"sanity"}, description="This test is for make a flow")
+	@Test(priority = 1,groups = {"sanity"}, description="This test is for make a flow")
 	public void  goHomeIconclickonseleniumrubyThenClickOnAddToBasketThenClickOnViewBasket() throws Exception {
-		practiceAutomationInstance= new ShoppingCartAutomationPages(driver);
+		practiceAutomationInstance= new ShoppingCartL2Pages(driver);
 		Assert.assertTrue(practiceAutomationInstance.goToTheHomeIconclickonseleniumrubyThenClickOnAddToBasketThenClickOnViewBasket(),"home icon is not present, check manually");
-		Assert.assertTrue(LocatorsFactoryInstance.getShopIconOption(driver).isDisplayed(), "Shop icon is not present in the current page, Please check manually");
+		Assert.assertTrue(LocatorsFactoryInstance.applyCouponcodeButtonIsPresent(driver).isDisplayed(), "ApplyCoupon code is not present in the current page, Please check manually");
 }
 	
-		@Test(priority = 12, groups = {"sanity"}, description="Verify after clicking on View basket the Selenium Ruby  product is present or not.")
-		public void  seleniumRubyProductIsPresent() throws Exception {
-			practiceAutomationInstance= new ShoppingCartAutomationPages(driver);
-			Assert.assertTrue(practiceAutomationInstance.seleniumRubyProductIsPresent(),"Selenium Ruby product is not there, check manually");
-			Assert.assertTrue(LocatorsFactoryInstance.getShopIconOption(driver).isDisplayed(), "Shop icon is not present in the current page, Please check manually");
+	@Test(priority = 2, groups = {"sanity"}, description="Verify after clicking on View basket the Selenium Ruby  product is present or not.")
+	public void  seleniumRubyProductIsPresent() throws Exception {
+		practiceAutomationInstance= new ShoppingCartL2Pages(driver);
+		Assert.assertTrue(practiceAutomationInstance.seleniumrubyProductIsPresent(),"Selenium Ruby product is not there, check manually");
+		Assert.assertTrue(LocatorsFactoryInstance.seleniumRubyInsideTheBasketPageIsPresent(driver).isDisplayed(), "seleniumRuby product is not present in the current page, Please check manually");
+}	
+	
+		@Test(priority = 3, groups = {"sanity"}, description="Verify Coupon code field and Apply Coupon button is present and Check if we have price defined ,quantity defined,total defined fields are present.")
+		public void  verifyAllFieldsArePresent() throws Exception {
+			practiceAutomationInstance= new ShoppingCartL2Pages(driver);
+			Assert.assertTrue(practiceAutomationInstance.verifyAllFieldsarePresent(),"Selenium Ruby product is not there, check manually");
+			Assert.assertTrue(LocatorsFactoryInstance.proceedToCheckoutButtonIsPresent(driver).isDisplayed(), "proceed To Checkout Button is not present in the current page, Please check manually");
 	}	
-		@Test(priority = 13, groups = {"sanity"}, description="Verify Coupon code field and Apply Coupon button is present")
-		public void  verifyCouponCodeFieldAndApplyCouponButtonIsPresent() throws Exception {
-			practiceAutomationInstance= new ShoppingCartAutomationPages(driver);
-			Assert.assertTrue(practiceAutomationInstance.verifyCouponcodeFieldAndApplyCouponButtonIsPresent(),"Coupon code and apply coupon code buttons are not present, check manually");
-			Assert.assertTrue(LocatorsFactoryInstance.getShopIconOption(driver).isDisplayed(), "Shop icon is not present in the current page, Please check manually");
-	}	
-		@Test(priority = 14, groups = {"sanity"}, description="Check if we have price defined after product name")
-		public void  priceDefinedAfterProductName() throws Exception {
-			practiceAutomationInstance= new ShoppingCartAutomationPages(driver);
-			Assert.assertTrue(practiceAutomationInstance.priceDefinedAfterProductName(),"Price Field is not present, check manually");
-			Assert.assertTrue(LocatorsFactoryInstance.getShopIconOption(driver).isDisplayed(), "Shop icon is not present in the current page, Please check manually");
-	}	
-		@Test(priority = 15, groups = {"sanity"}, description="Check if we have quantity defined after product price.")
-		public void  quantityDefinedAfterProductPrice() throws Exception {
-			practiceAutomationInstance= new ShoppingCartAutomationPages(driver);
-			Assert.assertTrue(practiceAutomationInstance.quantityDefinedAfterProductPrice(),"Quantity Field is not present, check manually");
-			Assert.assertTrue(LocatorsFactoryInstance.getShopIconOption(driver).isDisplayed(), "Shop icon is not present in the current page, Please check manually");
-	}	
-		@Test(priority = 16, groups = {"sanity"}, description="Check if we have total defined is present after quantity.")
-		public void  totalDefinedIsPresentAfterQuantity() throws Exception {
-			practiceAutomationInstance= new ShoppingCartAutomationPages(driver);
-			Assert.assertTrue(practiceAutomationInstance.totalDefinedIsPresentAfterQuantity(),"Total Field is not present, check manually");
-			Assert.assertTrue(LocatorsFactoryInstance.getShopIconOption(driver).isDisplayed(), "Shop icon is not present in the current page, Please check manually");
-	}	
-		@Test(priority = 17, groups = {"sanity"}, description="Validate if we have an option to remove an added product or not and remove the product.")
+	
+		@Test(priority = 4, groups = {"sanity"}, description="Validate if we have an option to remove an added product or not and remove the product.")
 		public void  removeIconIsPresentAndRemoveTheProduct() throws Exception {
-			practiceAutomationInstance= new ShoppingCartAutomationPages(driver);
-			Assert.assertTrue(practiceAutomationInstance.removeIconIsPresentandRemoveTheProduct(),"Remove failed, check manually");
-			Assert.assertTrue(LocatorsFactoryInstance.getShopIconOption(driver).isDisplayed(), "Shop icon is not present in the current page, Please check manually");
+			practiceAutomationInstance= new ShoppingCartL2Pages(driver);
+			Map<String, String> expectedData = new FileOperations().readJson(expectedDataFilePath, "RemoveMessage");
+			Assert.assertEquals(practiceAutomationInstance.removeIconIsPresentandRemoveTheProductAndValidateTheMessage(),expectedData.get("Removemessagedetails"));
+			Assert.assertTrue(LocatorsFactoryInstance.removeMessageIsPresent(driver).isDisplayed(), "Remove message is not present in the current page, Please check manually");
 	}	
-
-		@Test(priority = 18, groups = {"sanity"}, description="Validate if we get a message after removing an item with its name or not.")
-		public void  validateTheMessageAfterRemovingAProduct() throws Exception {
-			practiceAutomationInstance= new ShoppingCartAutomationPages(driver);
-			Map<String, String> expectedData = new FileOperations().readJson(expectedDataFilePath, "Remove_Message");
-			Assert.assertEquals(practiceAutomationInstance.validatetheMessageAfterRemovingAProduct(), expectedData.get("Remove_message_details"));
-			Assert.assertTrue(LocatorsFactoryInstance.getShopIconOption(driver).isDisplayed(), "Shop icon is not present in the current page, Please check manually");
-	}	
-		@Test(priority = 19, groups = {"sanity"}, description="Go to the Home Icon and click on selenium ruby then click on add to basket then click on view basket to add the product")
+	
+		@Test(priority = 5, groups = {"sanity"}, description="Go to the Home Icon and click on selenium ruby then click on add to basket and verify the item no is increased to +1 ")
 		public void  gotoTheHomeIconclickonseleniumrubyThenClickOnAddToBasketThenClickOnViewBasket() throws Exception {
-			practiceAutomationInstance= new ShoppingCartAutomationPages(driver);
-			Assert.assertTrue(practiceAutomationInstance.goToTheHomeIconclickonseleniumrubyThenClickOnAddToBasketThenClickOnViewBasket(),"User not able to add product, check manually");
+			practiceAutomationInstance= new ShoppingCartL2Pages(driver);
+			Map<String, String> expectedData = new FileOperations().readJson(expectedDataFilePath, "AddToCart");
+			Assert.assertEquals(practiceAutomationInstance.goToTheHomeIconclickonseleniumrubyThenClickOnAddToBasketThenVerifyTheItemIsIncreased(),expectedData.get("IncreaseItem"));
+			Assert.assertTrue(LocatorsFactoryInstance.increasedProductInCartIsPresent(driver).isDisplayed(), "item number is not increase in cart, Please check manually");
+	}
+		
+		@Test(priority = 6, groups = {"sanity"}, description="click on My Account and verify all the fields are present or not")
+		public void  clickOnMyAccountAndVerifyAllTheFieldsArePresent() throws Exception {
+			practiceAutomationInstance= new ShoppingCartL2Pages(driver);
+			Assert.assertTrue(practiceAutomationInstance.clickOnMyAccountAndVerifyAllTheFieldsArePresent(),"User not able to add product, check manually");
+			Assert.assertTrue(LocatorsFactoryInstance.loginButtonIsPresent(driver).isDisplayed(), "LogIn Button is not present in the current page, Please check manually");
+	}
+		@Test(priority = 7, groups = {"sanity"}, description="click on Test Cases its should navigate to the Test Cases pages and verify the url of the Test Cases pages ")
+		public void  clickonTestCasesItsShouldNavigateToTheTestCasesPagesVerifyTheUrlOfTheTestCasesPages() throws Exception {
+			practiceAutomationInstance= new ShoppingCartL2Pages(driver);
+			Map<String, String> expectedData = new FileOperations().readJson(expectedDataFilePath, "TestcasePage");
+			Assert.assertEquals(practiceAutomationInstance.clickonTestCasesItsShouldNavigateToTheTestCasesPages(),expectedData.get("TestCasePageTitle"));
+			Assert.assertTrue(LocatorsFactoryInstance.testCasesIconIsPresent(driver).isDisplayed(), "TestCase icon is not present in the current page, Please check manually");
+	}
+		@Test(priority = 8, groups = {"sanity"}, description="verify the url of the Test Cases pages ")
+		public void  clickOnTestCasesVerifyTheUrlOfTheTestCasesPages() throws Exception {
+			practiceAutomationInstance= new ShoppingCartL2Pages(driver);
+			Map<String, String> expectedData = new FileOperations().readJson(expectedDataFilePath, "TestcasePageUrl");
+			Assert.assertEquals(practiceAutomationInstance.verifyTheurlOfTheTestCasesPages(),expectedData.get("UrlTestCasePageTitle"));
 			Assert.assertTrue(LocatorsFactoryInstance.getShopIconOption(driver).isDisplayed(), "Shop icon is not present in the current page, Please check manually");
-	}	
-		@Test(priority = 20, groups = {"sanity"}, description="Validate if we have a “Proceed to checkout” button or not.")
-		public void  validateIfWeHaveAProceedToCheckoutButtonOrNot() throws Exception {
-			practiceAutomationInstance= new ShoppingCartAutomationPages(driver);
-			Assert.assertTrue(practiceAutomationInstance.validateIfWeHaveAProceedToCheckoutButtonORNot(),"Proceed to check out button is not present, check manually");
-			Assert.assertTrue(LocatorsFactoryInstance.getShopIconOption(driver).isDisplayed(), "Shop icon is not present in the current page, Please check manually");
+	}
+		@Test(priority = 9, groups = {"sanity"}, description="click on AT SITE and verify the Selenium and appium fields are present or not ")
+		public void  clickOnATSITEAndVerifyTheSeleniumAndAppiumFieldsArePresent() throws Exception {
+			practiceAutomationInstance= new ShoppingCartL2Pages(driver);
+			Assert.assertTrue(practiceAutomationInstance.clickOnAtSiteAndVerifyTheSeleniumAndAppiumFieldsArePresent(),"");
+			Assert.assertTrue(LocatorsFactoryInstance.toolsIconIsPresent(driver).isDisplayed(), "tools icon is not present in the current page, Please check manually");
+	}
+		@Test(priority = 10, groups = {"sanity"}, description="click on Shop and verify the Refine By , Home/shop and filter by price  fields are present or not")
+		public void  clickOnShopAndVerifyTheRefineByHomeshopAndFilterByPriceFieldsArePresent() throws Exception {
+			practiceAutomationInstance= new ShoppingCartL2Pages(driver);
+			Assert.assertTrue(practiceAutomationInstance.clickonShopAndVerifyTheRefineByHomeshopAndFilterByPriceFieldsArePresent(),"These fields are not present, check manually");
+			Assert.assertTrue(LocatorsFactoryInstance.filterByPriceSliderIsPresent(driver).isDisplayed(), "filterBy Price Slider is not present in the current page, Please check manually");
 	}	
 		
 				

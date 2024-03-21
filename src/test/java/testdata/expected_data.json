@@ -26,11 +26,20 @@
 		"verify_error_message":"Enter a combination of at least six numbers, letters and punctuation marks (such as ! and &)."
 	},
 
-	"Remove_Message":{
-		"Remove_message_details":"Selenium Ruby removed. Undo?"
+	"RemoveMessage":{
+		"Removemessagedetails":"Selenium Ruby removed. Undo?"
 	},
 	"BillingDetailsPage":{
 		"BillingDetailsPage_title":"Basket – Automation Practice Site"
+	},
+	"TestcasePage":{
+		"TestCasePageTitle":"Test Cases – Automation Practice Site"
+	},
+	"TestcasePageUrl":{
+		"UrlTestCasePageTitle":"https://practice.automationtesting.in/test-cases/"
+	},
+	"AddToCart":{
+		"IncreaseItem":"1 Item"
 	}
 
 }
